@@ -43,10 +43,10 @@
   <div role="main" class="puzzle-home"></div>
   <div role="instructions" class="puzzle-instructions" title="select me...">
     <h2>Instructions: </h2>
-    <li>Given the list of highlighted numbers <b>|</b> above</li>
-    <li>and only using each <b>|</b> number once per permutation</li>
-    <li>assemble a valid IP address <b>|</b> </li>.
-    <li>Send your name to the above <b>|</b> IP address with the endpoint hackerolympics.json (ie http://1.2.3.4/hackerolympics.json) as a form parameter and you will receive a password <b>|</b> to register with in a JSON response.</li>
+    <li>Use the list of <b>|</b> highlighted numbers above to construct a list of valid IP addresses, <b>|</b> each number may only be used once per permutation. </li>
+    <li>An IP address from that list will <b>|</b> help you get a password for the Hacker Olympics, but we won't tell you which one.</li>
+    <li>Send <b>|</b> a form encoded POST request containing your "name" as the only parameter to the "/hackerolympics.json" endpoint at the correct IP (e.g. http://1.2.3.4/hackerolympics.json) and you will get back a JSON <b>|</b> response with a password and url that will let you register for the event.</li>
+    <li>Watch out for dummy servers <b>|</b> that reply to your request, but do not include a password.</li>
   </div>
 
   <footer>
