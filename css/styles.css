@@ -7,6 +7,16 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+@font-face {
+    font-family: 'Condensed';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 article,
 aside,
 details,
@@ -157,7 +167,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: "Helvitica", "Arial", arial, sans-serif;
   color: #222;
 }
 body {
@@ -4116,9 +4126,31 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
-.puzzle-home {
-  background:url("../img/2_puzzle_h.png") center center no-repeat;
-  height:600px;
+.puzzle-home b{
+    color:#e4abcd;
+    font-weight:normal;
+}
+.headline {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color:#a4d17d;
+  font-size:26px;
+  font-family:"Condensed", sans-serif;
+  font-weight:bold;
+}
+.logo {
+  background:url("../img/logo-home.png") no-repeat;
+  padding-top:40px;
+  width:620px;
+  position:absolute;
+  height:400px;
+  z-index:1010;
+  display: block;
+  top: 40px;
+  left: 26%;
+  color:#e4abcd;
+  font-size:22px;
 }
 .puzzle-instructions {
   color:#212121;
