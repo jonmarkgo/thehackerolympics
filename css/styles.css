@@ -4141,7 +4141,7 @@ a.thumbnail:hover {
   color:#a4d17d;
   font-size:26px;
 }
-.logo {
+.puzzle-home .logo {
   background:url("../img/logo-home.png") no-repeat;
   position:fixed;
   z-index:1010;
@@ -4152,6 +4152,15 @@ a.thumbnail:hover {
   height: 140px;
   top: 60px;
   left: 50px;
+}
+.logo {
+  background:url("../img/logo-home.png") no-repeat;
+  display: block;
+  color:#e4abcd;
+  font-size:22px;
+  width: 210px;
+  height: 110px;
+  margin: 40px auto;
 }
 a.big-dumb-question {
   font-size:18px;
@@ -4171,3 +4180,14 @@ a.big-dumb-question:hover {
 }
 .puzzle-instructions h2 {color:#212121;}
 .puzzle-instructions b { color:#F5A5C4; }
+.press-page {
+  width:840px;
+  padding-top:25px;
+  margin:0px auto;
+  color:#999;
+  font-size:14px;
+  line-height:1.5;
+}
+li {
+  list-style: none;
+}
