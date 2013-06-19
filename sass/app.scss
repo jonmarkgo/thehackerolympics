@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Condensed';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+h1, h2 {
+    font-family: 'Condensed', Helvetica, Arial, sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-bottom:0px;
+    text-transform: uppercase;
+    &.gray {
+        color:$gray;
+    }
+}
+.sponsor_bar {
+    min-height:90px;
+    width:100%;
+    margin:0px;
+    background: $blue;
+}
+.hero {
+    margin-top:30px
+}
+h1.giant {
+    color:$neon;
+    font-size: 1200%;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin:0px 0px 30px;
+}
+.block {
+    border:1px solid $grayLight;
+    border-radius:3px;
+    text-align: center;
+    padding:20px 0px;
+    display: block;
+    margin:20px 0px;
+    &:hover {
+        -webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.2);
+        -moz-box-shadow:0px 0px 5px rgba(0,0,0,0.2);
+    }
+}
+.icon {
+    background:url("../img/icons.png") no-repeat;
+    display: block;
+    height: 140px;
+    width: 100%;
+    &.puzzle {
+        background-position: 60px 0px;
+    }
+    &.leader {
+        background-position: -290px 0px;
+    }
+    &.schedule {
+        background-position: -644px 0px;
+    }
+}
+.small-centered *{
+    text-align: center;
+}
+.challenge {
+    table {
+        width:100%;
+        thead {
+            background:$red;
+        }
+        tr {
+            th {
+                font-size:120%;
+                color:white;
+            }
+            th.right, td.right {
+                text-align: right;
+            }
+            td.team {
+                color:$green;
+                font-weight:bold;
+            }
+        }
+    }
+    &.variable {
+        thead {
+            background:$blue;
+        }
+    }
+    tr.rules td {
+        padding:20px;
+        line-height:1.5;
+    }
+}
