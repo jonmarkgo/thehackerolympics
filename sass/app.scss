@@ -70,8 +70,10 @@ h1, h2 {
 .sponsor_bar {
     min-height:90px;
     width:100%;
+    padding:15px 0px;
     margin:0px;
     background: $blue;
+    text-align: center;
 }
 .hero {
     margin-top:30px
@@ -142,4 +144,49 @@ h1.giant {
         padding:20px;
         line-height:1.5;
     }
+}
+
+.leader-deets {
+    height:50px;
+    background:$gray;
+    margin:5px 0px;
+    color:white;
+    position: relative;
+    &:nth-child(odd) {
+        
+    }
+    h3 {
+        margin:0px;
+        line-height:40px;
+        display: inline-block;
+        color:white;
+    }
+    h3.place {
+        padding:5px;
+        color: rgba(0,0,0,0.35);
+        background: rgba(0,0,0,0.2);
+        height: 50px;
+        width: 50px;
+        text-align: center;
+    }
+    h3.name {
+        margin-left:12px
+    }
+    .score {
+        position:absolute;
+        right:3px;
+        top: 3px;
+        width:120px;
+        display: block;
+        font-size:3em;
+        color:black;
+        background: rgba(255,255,255,0.8);
+        height: 44px;
+        font-family: "Condensed";
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}
+.leader-deets {
+    &.p1, &.p2, &.p0 { background:$yellow; }
 }
