@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>The Hacker Olympics</title>
+
+    
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="js/lib/jquery-1.7.1.min.js"></script>
+    <script src="js/lib/underscore.js"></script>
+    <script src="js/lib/backbone.js"></script>
+    <script src="js/lib/backbone.marionette.min.js"></script>
+    <script src="js/src/leaderboard.js"></script>
+
+</head>
+<body>
+    <div class="sponsor_bar">
+        <img src="img/logo.png" />
+    </div>
+
+    <div class="row">
+        <div class="large-4 small-centered columns">
+            <i class="icon leader"></i>
+            <h2>Leaderboard</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="leaderboard" class="large-12 columns">
+            
+
+        </div>
+    </div>
+
+    <script id="leader-layout" type="text/template">
+        <div class="leader-list"></div>
+    </script>
+
+    <script id="leader-item" type="text/template">
+        <div class="row">
+            <div class="large-6 small-10 columns name">
+                <h3 class="place"><%= place %></h3>
+                <h3 class="name"><%= name %></h3>
+            </div>
+            <div class="score"><%= score %></div>
+        </div>
+    </script>
+
+    <script>
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+    '.js><\/script>')
+    </script>
+    
+    <script src="javascripts/foundation/foundation.js"></script>
+    
+    <script src="javascripts/foundation/foundation.alerts.js"></script>
+    
+    <script src="javascripts/foundation/foundation.clearing.js"></script>
+    
+    <script src="javascripts/foundation/foundation.cookie.js"></script>
+    
+    <script src="javascripts/foundation/foundation.dropdown.js"></script>
+    
+    <script src="javascripts/foundation/foundation.forms.js"></script>
+    
+    <script src="javascripts/foundation/foundation.interchange.js"></script>
+    
+    <script src="javascripts/foundation/foundation.joyride.js"></script>
+    
+    <script src="javascripts/foundation/foundation.magellan.js"></script>
+    
+    <script src="javascripts/foundation/foundation.orbit.js"></script>
+    
+    <script src="javascripts/foundation/foundation.placeholder.js"></script>
+    
+    <script src="javascripts/foundation/foundation.reveal.js"></script>
+    
+    <script src="javascripts/foundation/foundation.section.js"></script>
+    
+    <script src="javascripts/foundation/foundation.tooltips.js"></script>
+    
+    <script src="javascripts/foundation/foundation.topbar.js"></script>
+    
+    
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+</html>
