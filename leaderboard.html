@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<script type="text/JavaScript">
-<!--
-function timedRefresh(timeoutPeriod) {
-    setTimeout("location.reload(true);",timeoutPeriod);
-}
-//   -->
-</script>
+
 </head>
 
 <head>
@@ -22,9 +16,15 @@ function timedRefresh(timeoutPeriod) {
     <script src="js/lib/backbone.js"></script>
     <script src="js/lib/backbone.marionette.min.js"></script>
     <script src="js/src/leaderboard.js"></script>
+<script type="text/JavaScript">
+$(document).ready(function ( ) {
 
+    setTimeout("location.reload(true);",30000);
+
+});
+</script>
 </head>
-<body onload="JavaScript:timedRefresh(30000);">
+<body>
     <div class="sponsor_bar">
         <img src="img/logo.png" />
     </div>
