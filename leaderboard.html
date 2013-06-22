@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<script type="text/JavaScript">
+<!--
+function timedRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);",timeoutPeriod);
+}
+//   -->
+</script>
+</head>
 
 <head>
     <meta charset="utf-8" />
@@ -16,7 +24,7 @@
     <script src="js/src/leaderboard.js"></script>
 
 </head>
-<body>
+<body onload="JavaScript:timedRefresh(30000);">
     <div class="sponsor_bar">
         <img src="img/logo.png" />
     </div>
