@@ -1,0 +1,159 @@
+[
+    {
+        "time": "1899-12-30T14:30:00.000Z",
+        "bombermanteams": "Team 1\nTeam 2\nTeam 3\nTeam 4\nTeam 5\nTeam 6\n",
+        "stackoverflowteams": "Team 26\nTeam 28\nTeam 30\nTeam 32\nTeam 34\nTeam 36\n",
+        "charades1teams": "Team 41\nTeam 47\n\n\n\n\n",
+        "charades2teams": "Team 42\nTeam 48\n\n\n\n\n",
+        "charades3teams": "Team 53\nTeam 59\n\n\n\n\n",
+        "charades4teams": "Team 54\nTeam 60\n\n\n\n\n",
+        "charades5teams": "Team 65\nTeam 71\n\n\n\n\n",
+        "charades6teams": "Team 66\nTeam 72\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T14:45:00.000Z",
+        "bombermanteams": "Team 7\nTeam 8\nTeam 9\nTeam 10\nTeam 11\nTeam 12\n",
+        "stackoverflowteams": "Team 25\nTeam 27\nTeam 29\nTeam 31\nTeam 33\nTeam 35\n",
+        "charades1teams": "Team 43\nTeam 49\n\n\n\n\n",
+        "charades2teams": "Team 44\nTeam 50\n\n\n\n\n",
+        "charades3teams": "Team 55\nTeam 61\n\n\n\n\n",
+        "charades4teams": "Team 56\nTeam 62\n\n\n\n\n",
+        "charades5teams": "Team 67\nTeam 73\n\n\n\n\n",
+        "charades6teams": "Team 68\nTeam 74\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T15:00:00.000Z",
+        "bombermanteams": "Team 13\nTeam 14\nTeam 15\nTeam 16\nTeam 17\nTeam 18\n",
+        "stackoverflowteams": "Team 61\nTeam 65\nTeam 67\nTeam 68\n\n\n",
+        "charades1teams": "Team 45\nTeam 51\n\n\n\n\n",
+        "charades2teams": "Team 46\nTeam 52\n\n\n\n\n",
+        "charades3teams": "Team 57\nTeam 63\n\n\n\n\n",
+        "charades4teams": "Team 58\nTeam 64\n\n\n\n\n",
+        "charades5teams": "Team 69\nTeam 75\n\n\n\n\n",
+        "charades6teams": "Team 70\nTeam 76\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T15:15:00.000Z",
+        "bombermanteams": "Team 19\nTeam 20\nTeam 21\nTeam 22\nTeam 23\nTeam 24\n",
+        "stackoverflowteams": "Team 37\nTeam 39\nTeam 41\nTeam 43\nTeam 45\nTeam 47\n",
+        "charades1teams": "Team 25\nTeam 33\n\n\n\n\n",
+        "charades2teams": "Team 26\nTeam 34\n\n\n\n\n",
+        "charades3teams": "Team 77\nTeam 79\n\n\n\n\n",
+        "charades4teams": "Team 78\nTeam 80\n\n\n\n\n",
+        "charades5teams": "Team 32\nTeam 38\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T15:30:00.000Z",
+        "bombermanteams": "Team 25\nTeam 26\nTeam 27\nTeam 28\nTeam 29\nTeam 30\n",
+        "stackoverflowteams": "Team 38\nTeam 40\nTeam 42\nTeam 44\nTeam 46\nTeam 48\n",
+        "charades1teams": "Team 1\nTeam 7\n\n\n\n\n",
+        "charades2teams": "Team 2\nTeam 8\n\n\n\n\n",
+        "charades3teams": "Team 19\nTeam 13\n\n\n\n\n",
+        "charades4teams": "Team 14\nTeam 20\n\n\n\n\n",
+        "charades5teams": "Team 31\nTeam 37\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T15:45:00.000Z",
+        "bombermanteams": "Team 31\nTeam 32\nTeam 33\nTeam 34\nTeam 35\nTeam 36\n",
+        "stackoverflowteams": "Team 49\nTeam 51\nTeam 53\nTeam 55\nTeam 57\nTeam 59\n",
+        "charades1teams": "Team 3\nTeam 9\n\n\n\n\n",
+        "charades2teams": "Team 4\nTeam 10\n\n\n\n\n",
+        "charades3teams": "Team 15\nTeam 21\n\n\n\n\n",
+        "charades4teams": "Team 16\nTeam 22\n\n\n\n\n",
+        "charades5teams": "Team 27\nTeam 39\n\n\n\n\n",
+        "charades6teams": "Team 28\nTeam 40\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T16:00:00.000Z",
+        "bombermanteams": "Team 37\nTeam 38\nTeam 39\nTeam 40\nTeam 41\nTeam 42\n",
+        "stackoverflowteams": "Team 50\nTeam 52\nTeam 54\nTeam 56\nTeam 58\nTeam 60\n",
+        "charades1teams": "Team 5\nTeam 11\n\n\n\n\n",
+        "charades2teams": "Team 6\nTeam 12\n\n\n\n\n",
+        "charades3teams": "Team 17\nTeam 23\n\n\n\n\n",
+        "charades4teams": "Team 18\nTeam 24\n\n\n\n\n",
+        "charades5teams": "Team 29\nTeam 35\n\n\n\n\n",
+        "charades6teams": "Team 30\nTeam 36\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T16:15:00.000Z",
+        "bombermanteams": "Team 43\nTeam 44\nTeam 45\nTeam 46\nTeam 47\nTeam 48\n",
+        "stackoverflowteams": "Team 69\nTeam 71\nTeam 73\nTeam 75\nTeam 77\nTeam 79\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T16:30:00.000Z",
+        "bombermanteams": "Team 49\nTeam 50\nTeam 51\nTeam 52\nTeam 53\nTeam 54\n",
+        "stackoverflowteams": "Team 70\nTeam 72\nTeam 74\nTeam 76\nTeam 78\nTeam 80\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T16:45:00.000Z",
+        "bombermanteams": "Team 55\nTeam 56\nTeam 57\nTeam 58\nTeam 59\nTeam 60\n",
+        "stackoverflowteams": "Team 14\nTeam 16\nTeam 18\nTeam 20\nTeam 22\nTeam 24\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T17:00:00.000Z",
+        "bombermanteams": "Team 61\nTeam 62\nTeam 63\nTeam 64\nTeam 65\nTeam 66\n",
+        "stackoverflowteams": "Team 13\nTeam 15\nTeam 17\nTeam 19\nTeam 21\nTeam 23\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T17:15:00.000Z",
+        "bombermanteams": "Team 67\nTeam 68\nTeam 69\nTeam 70\nTeam 71\nTeam 72\n",
+        "stackoverflowteams": "Team 2\nTeam 4\nTeam 6\nTeam 8\nTeam 10\nTeam 12\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T17:30:00.000Z",
+        "bombermanteams": "Team 73\nTeam 74\nTeam 75\nTeam 76\n\n\n",
+        "stackoverflowteams": "Team 1\nTeam 3\nTeam 5\nTeam 7\nTeam 9\nTeam 11\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T17:45:00.000Z",
+        "bombermanteams": "\nTeam 77\nTeam 78\nTeam 79\nTeam 80\n\n",
+        "stackoverflowteams": "Team 11\nTeam 62\nTeam 63\nTeam 64\nTeam 66\n\n",
+        "charades1teams": "\n\n\n\n\n\n",
+        "charades2teams": "\n\n\n\n\n\n",
+        "charades3teams": "\n\n\n\n\n\n",
+        "charades4teams": "\n\n\n\n\n\n",
+        "charades5teams": "\n\n\n\n\n\n",
+        "charades6teams": "\n\n\n\n\n\n"
+    },
+    {
+        "time": "1899-12-30T18:00:00.000Z"
+    }
+]
