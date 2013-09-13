@@ -2,561 +2,561 @@
     {
         "team": 1,
         "teamName": "Krikkit",
-        "slot1": "Bomberman ",
-        "slot5": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot5": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 2,
         "teamName": "Rupert",
-        "slot1": "Bomberman ",
-        "slot5": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot5": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 3,
         "teamName": "Lamuella",
-        "slot1": "Bomberman ",
-        "slot6": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot6": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 4,
         "teamName": "Magrathea",
-        "slot1": "Bomberman ",
-        "slot6": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot6": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 5,
         "teamName": "Vogsphere",
-        "slot1": "Bomberman ",
-        "slot7": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot7": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 6,
         "teamName": "Helicon",
-        "slot1": "Bomberman ",
-        "slot7": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot1": "bomberman",
+        "slot7": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 7,
         "teamName": "Terminus",
-        "slot2": "Bomberman ",
-        "slot5": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot5": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 8,
         "teamName": "Trantor",
-        "slot2": "Bomberman ",
-        "slot5": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot5": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 9,
         "teamName": "Arrakis",
-        "slot2": "Bomberman ",
-        "slot6": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot6": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 10,
         "teamName": "Caladan",
-        "slot2": "Bomberman ",
-        "slot6": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot6": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 11,
         "teamName": "Chapterhouse",
-        "slot2": "Bomberman ",
-        "slot7": "Startup Charades 1",
-        "slot13": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot7": "startupcharades_1",
+        "slot13": "stackoverflow"
     },
     {
         "team": 12,
         "teamName": "Bog",
-        "slot2": "Bomberman ",
-        "slot7": "Startup Charades 2",
-        "slot12": "Stack Overflow"
+        "slot2": "bomberman",
+        "slot7": "startupcharades_2",
+        "slot12": "stackoverflow"
     },
     {
         "team": 13,
         "teamName": "Gloob",
-        "slot3": "Bomberman ",
-        "slot5": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot5": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 14,
         "teamName": "Mok",
-        "slot3": "Bomberman ",
-        "slot5": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot5": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 15,
         "teamName": "Plootarg",
-        "slot3": "Bomberman ",
-        "slot6": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot6": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 16,
         "teamName": "Zark",
-        "slot3": "Bomberman ",
-        "slot6": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot6": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 17,
         "teamName": "Krypton",
-        "slot3": "Bomberman ",
-        "slot7": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot7": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 18,
         "teamName": "Mongo",
-        "slot3": "Bomberman ",
-        "slot7": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot3": "bomberman",
+        "slot7": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 19,
         "teamName": "Minbar",
-        "slot4": "Bomberman ",
-        "slot5": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot5": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 20,
         "teamName": "Narn",
-        "slot4": "Bomberman ",
-        "slot5": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot5": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 21,
         "teamName": "Caprica",
-        "slot4": "Bomberman ",
-        "slot6": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot6": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 22,
         "teamName": "Kobol",
-        "slot4": "Bomberman ",
-        "slot6": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot6": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 23,
         "teamName": "Gallifrey",
-        "slot4": "Bomberman ",
-        "slot7": "Startup Charades 3",
-        "slot11": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot7": "startupcharades_3",
+        "slot11": "stackoverflow"
     },
     {
         "team": 24,
         "teamName": "Mondas",
-        "slot4": "Bomberman ",
-        "slot7": "Startup Charades 4",
-        "slot10": "Stack Overflow"
+        "slot4": "bomberman",
+        "slot7": "startupcharades_4",
+        "slot10": "stackoverflow"
     },
     {
         "team": 25,
         "teamName": "Skaro",
-        "slot2": "Stack Overflow",
-        "slot4": "Startup Charades 1",
-        "slot5": "Bomberman "
+        "slot2": "stackoverflow",
+        "slot4": "startupcharades_1",
+        "slot5": "bomberman"
     },
     {
         "team": 26,
         "teamName": "Miranda",
-        "slot1": "Stack Overflow ",
-        "slot4": "Startup Charades 2",
-        "slot5": "Bomberman "
+        "slot1": "stackoverflow",
+        "slot4": "startupcharades_2",
+        "slot5": "bomberman"
     },
     {
         "team": 27,
         "teamName": "Osiris",
-        "slot2": "Stack Overflow",
-        "slot5": "Bomberman ",
-        "slot6": "Startup Charades 5"
+        "slot2": "stackoverflow",
+        "slot5": "bomberman",
+        "slot6": "startupcharades_5"
     },
     {
         "team": 28,
         "teamName": "Persephone",
-        "slot1": "Stack Overflow ",
-        "slot5": "Bomberman ",
-        "slot6": "Startup Charades 6"
+        "slot1": "stackoverflow",
+        "slot5": "bomberman",
+        "slot6": "startupcharades_6"
     },
     {
         "team": 29,
         "teamName": "Bajor ",
-        "slot2": "Stack Overflow",
-        "slot5": "Bomberman ",
-        "slot7": "Startup Charades 5"
+        "slot2": "stackoverflow",
+        "slot5": "bomberman",
+        "slot7": "startupcharades_5"
     },
     {
         "team": 30,
         "teamName": "Betazed ",
-        "slot1": "Stack Overflow ",
-        "slot5": "Bomberman ",
-        "slot7": "Startup Charades 6"
+        "slot1": "stackoverflow",
+        "slot5": "bomberman",
+        "slot7": "startupcharades_6"
     },
     {
         "team": 31,
         "teamName": "Boreth",
-        "slot2": "Stack Overflow",
-        "slot5": "Startup Charades 5",
-        "slot6": "Bomberman "
+        "slot2": "stackoverflow",
+        "slot5": "startupcharades_5",
+        "slot6": "bomberman"
     },
     {
         "team": 32,
         "teamName": "Ferenginar ",
-        "slot1": "Stack Overflow ",
-        "slot4": "Startup Charades 5",
-        "slot6": "Bomberman "
+        "slot1": "stackoverflow",
+        "slot4": "startupcharades_5",
+        "slot6": "bomberman"
     },
     {
         "team": 33,
         "teamName": "Gault",
-        "slot2": "Stack Overflow",
-        "slot4": "Startup Charades 1",
-        "slot6": "Bomberman "
+        "slot2": "stackoverflow",
+        "slot4": "startupcharades_1",
+        "slot6": "bomberman"
     },
     {
         "team": 34,
         "teamName": "Kataan",
-        "slot1": "Stack Overflow",
-        "slot4": "Startup Charades 2",
-        "slot6": "Bomberman "
+        "slot1": "stackoverflow",
+        "slot4": "startupcharades_2",
+        "slot6": "bomberman"
     },
     {
         "team": 35,
         "teamName": "Kronos",
-        "slot2": "Stack Overflow",
-        "slot6": "Bomberman ",
-        "slot7": "Startup Charades 5"
+        "slot2": "stackoverflow",
+        "slot6": "bomberman",
+        "slot7": "startupcharades_5"
     },
     {
         "team": 36,
         "teamName": "Risa",
-        "slot1": "Stack Overflow",
-        "slot6": "Bomberman ",
-        "slot7": "Startup Charades 6"
+        "slot1": "stackoverflow",
+        "slot6": "bomberman",
+        "slot7": "startupcharades_6"
     },
     {
         "team": 37,
         "teamName": "Romulus ",
-        "slot4": "Stack Overflow",
-        "slot5": "Startup Charades 5",
-        "slot7": "Bomberman "
+        "slot4": "stackoverflow",
+        "slot5": "startupcharades_5",
+        "slot7": "bomberman"
     },
     {
         "team": 38,
         "teamName": "Trill",
-        "slot4": "Startup Charades 5",
-        "slot5": "Stack Overflow",
-        "slot7": "Bomberman "
+        "slot4": "startupcharades_5",
+        "slot5": "stackoverflow",
+        "slot7": "bomberman"
     },
     {
         "team": 39,
         "teamName": "Vulcan ",
-        "slot4": "Stack Overflow",
-        "slot6": "Startup Charades 5",
-        "slot7": "Bomberman "
+        "slot4": "stackoverflow",
+        "slot6": "startupcharades_5",
+        "slot7": "bomberman"
     },
     {
         "team": 40,
         "teamName": "Alderaan",
-        "slot5": "Stack Overflow",
-        "slot6": "Startup Charades 6",
-        "slot7": "Bomberman "
+        "slot5": "stackoverflow",
+        "slot6": "startupcharades_6",
+        "slot7": "bomberman"
     },
     {
         "team": 41,
         "teamName": "Bespin ",
-        "slot1": "Startup Charades 1",
-        "slot4": "Stack Overflow",
-        "slot7": "Bomberman "
+        "slot1": "startupcharades_1",
+        "slot4": "stackoverflow",
+        "slot7": "bomberman"
     },
     {
         "team": 42,
         "teamName": "Corellia",
-        "slot1": "Startup Charades 2",
-        "slot5": "Stack Overflow",
-        "slot7": "Bomberman "
+        "slot1": "startupcharades_2",
+        "slot5": "stackoverflow",
+        "slot7": "bomberman"
     },
     {
         "team": 43,
         "teamName": "Coruscant ",
-        "slot2": "Startup Charades 1",
-        "slot4": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot2": "startupcharades_1",
+        "slot4": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 44,
         "teamName": "Dagobah",
-        "slot2": "Startup Charades 2",
-        "slot5": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot2": "startupcharades_2",
+        "slot5": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 45,
         "teamName": "Endor ",
-        "slot3": "Startup Charades 1",
-        "slot4": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot3": "startupcharades_1",
+        "slot4": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 46,
         "teamName": "Hoth ",
-        "slot3": "Startup Charades 2",
-        "slot5": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot3": "startupcharades_2",
+        "slot5": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 47,
         "teamName": "Hutta",
-        "slot1": "Startup Charades 1",
-        "slot4": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot1": "startupcharades_1",
+        "slot4": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 48,
         "teamName": "Kamino",
-        "slot1": "Startup Charades 2",
-        "slot5": "Stack Overflow",
-        "slot8": "Bomberman "
+        "slot1": "startupcharades_2",
+        "slot5": "stackoverflow",
+        "slot8": "bomberman"
     },
     {
         "team": 49,
         "teamName": "Kashyyyk ",
-        "slot2": "Startup Charades 1",
-        "slot6": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot2": "startupcharades_1",
+        "slot6": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 50,
         "teamName": "Kessel",
-        "slot2": "Startup Charades 2",
-        "slot7": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot2": "startupcharades_2",
+        "slot7": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 51,
         "teamName": "Mandalore",
-        "slot3": "Startup Charades 1",
-        "slot6": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot3": "startupcharades_1",
+        "slot6": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 52,
         "teamName": "Naboo ",
-        "slot3": "Startup Charades 2",
-        "slot7": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot3": "startupcharades_2",
+        "slot7": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 53,
         "teamName": "Nar Shaddaa ",
-        "slot1": "Startup Charades 3",
-        "slot6": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot1": "startupcharades_3",
+        "slot6": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 54,
         "teamName": "Tatooine ",
-        "slot1": "Startup Charades 4",
-        "slot7": "Stack Overflow",
-        "slot9": "Bomberman "
+        "slot1": "startupcharades_4",
+        "slot7": "stackoverflow",
+        "slot9": "bomberman"
     },
     {
         "team": 55,
         "teamName": "Yavin",
-        "slot2": "Startup Charades 3",
-        "slot6": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot2": "startupcharades_3",
+        "slot6": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 56,
         "teamName": "Irk",
-        "slot2": "Startup Charades 4",
-        "slot7": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot2": "startupcharades_4",
+        "slot7": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 57,
         "teamName": "Melmac",
-        "slot3": "Startup Charades 3",
-        "slot6": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot3": "startupcharades_3",
+        "slot6": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 58,
         "teamName": "Ork",
-        "slot3": "Startup Charades 4",
-        "slot7": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot3": "startupcharades_4",
+        "slot7": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 59,
         "teamName": "Rigel 7",
-        "slot1": "Startup Charades 3",
-        "slot6": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot1": "startupcharades_3",
+        "slot6": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 60,
         "teamName": "Rylos",
-        "slot1": "Startup Charades 4",
-        "slot7": "Stack Overflow",
-        "slot10": "Bomberman "
+        "slot1": "startupcharades_4",
+        "slot7": "stackoverflow",
+        "slot10": "bomberman"
     },
     {
         "team": 61,
         "teamName": "Spaceball",
-        "slot2": "Startup Charades 3",
-        "slot3": "Stack Overflow",
-        "slot11": "Bomberman "
+        "slot2": "startupcharades_3",
+        "slot3": "stackoverflow",
+        "slot11": "bomberman"
     },
     {
         "team": 62,
         "teamName": "\"X\"",
-        "slot2": "Startup Charades 4",
-        "slot11": "Bomberman ",
-        "slot14": "Stack Overflow"
+        "slot2": "startupcharades_4",
+        "slot11": "bomberman",
+        "slot14": "stackoverflow"
     },
     {
         "team": 63,
         "teamName": "Harvest",
-        "slot3": "Startup Charades 3",
-        "slot11": "Bomberman ",
-        "slot14": "Stack Overflow"
+        "slot3": "startupcharades_3",
+        "slot11": "bomberman",
+        "slot14": "stackoverflow"
     },
     {
         "team": 64,
         "teamName": "Onyx",
-        "slot3": "Startup Charades 4",
-        "slot11": "Bomberman ",
-        "slot14": "Stack Overflow"
+        "slot3": "startupcharades_4",
+        "slot11": "bomberman",
+        "slot14": "stackoverflow"
     },
     {
         "team": 65,
         "teamName": "Reach",
-        "slot1": "Startup Charades 5",
-        "slot3": "Stack Overflow",
-        "slot11": "Bomberman "
+        "slot1": "startupcharades_5",
+        "slot3": "stackoverflow",
+        "slot11": "bomberman"
     },
     {
         "team": 66,
         "teamName": "Norion",
-        "slot1": "Startup Charades 6",
-        "slot11": "Bomberman ",
-        "slot14": "Stack Overflow"
+        "slot1": "startupcharades_6",
+        "slot11": "bomberman",
+        "slot14": "stackoverflow"
     },
     {
         "team": 67,
         "teamName": "Zebes",
-        "slot2": "Startup Charades 5",
-        "slot3": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot2": "startupcharades_5",
+        "slot3": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 68,
         "teamName": "Phaaze",
-        "slot2": "Startup Charades 6",
-        "slot3": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot2": "startupcharades_6",
+        "slot3": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 69,
         "teamName": "Aquas",
-        "slot3": "Startup Charades 5",
-        "slot8": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot3": "startupcharades_5",
+        "slot8": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 70,
         "teamName": "Corneria",
-        "slot3": "Startup Charades 6",
-        "slot9": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot3": "startupcharades_6",
+        "slot9": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 71,
         "teamName": "Fortuna",
-        "slot1": "Startup Charades 5",
-        "slot8": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot1": "startupcharades_5",
+        "slot8": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 72,
         "teamName": "Titania",
-        "slot1": "Startup Charades 6",
-        "slot9": "Stack Overflow",
-        "slot12": "Bomberman "
+        "slot1": "startupcharades_6",
+        "slot9": "stackoverflow",
+        "slot12": "bomberman"
     },
     {
         "team": 73,
         "teamName": "Venom",
-        "slot2": "Startup Charades 5",
-        "slot8": "Stack Overflow",
-        "slot13": "Bomberman "
+        "slot2": "startupcharades_5",
+        "slot8": "stackoverflow",
+        "slot13": "bomberman"
     },
     {
         "team": 74,
         "teamName": "Katina",
-        "slot2": "Startup Charades 6",
-        "slot9": "Stack Overflow",
-        "slot13": "Bomberman "
+        "slot2": "startupcharades_6",
+        "slot9": "stackoverflow",
+        "slot13": "bomberman"
     },
     {
         "team": 75,
         "teamName": "Aiur",
-        "slot3": "Startup Charades 5",
-        "slot8": "Stack Overflow",
-        "slot13": "Bomberman "
+        "slot3": "startupcharades_5",
+        "slot8": "stackoverflow",
+        "slot13": "bomberman"
     },
     {
         "team": 76,
         "teamName": "Korhal",
-        "slot3": "Startup Charades 6",
-        "slot9": "Stack Overflow",
-        "slot13": "Bomberman "
+        "slot3": "startupcharades_6",
+        "slot9": "stackoverflow",
+        "slot13": "bomberman"
     },
     {
         "team": 77,
         "teamName": "Char",
-        "slot4": "Startup Charades 3",
-        "slot8": "Stack Overflow",
-        "slot14": "Bomberman "
+        "slot4": "startupcharades_3",
+        "slot8": "stackoverflow",
+        "slot14": "bomberman"
     },
     {
         "team": 78,
         "teamName": "Tarsonis",
-        "slot4": "Startup Charades 4",
-        "slot9": "Stack Overflow",
-        "slot14": "Bomberman "
+        "slot4": "startupcharades_4",
+        "slot9": "stackoverflow",
+        "slot14": "bomberman"
     },
     {
         "team": 79,
         "teamName": "Shakuras",
-        "slot4": "Startup Charades 3",
-        "slot8": "Stack Overflow",
-        "slot14": "Bomberman "
+        "slot4": "startupcharades_3",
+        "slot8": "stackoverflow",
+        "slot14": "bomberman"
     },
     {
         "team": 80,
         "teamName": "Mar Sara",
-        "slot4": "Startup Charades 4",
-        "slot9": "Stack Overflow",
-        "slot14": "Bomberman "
+        "slot4": "startupcharades_4",
+        "slot9": "stackoverflow",
+        "slot14": "bomberman"
     }
 ]
