@@ -21,10 +21,9 @@ h3 {
 
 }
 
-.leaderboard .list-group-item {
+.leaderboard .list-group-item, .alert-info {
 	padding: 10px;
 	margin: 10px 0px;
-	font-size: 20px;
 	border-radius: 0px 0px 0px 0px;
 	background-color: #3279FF;
 	color: #fff;
@@ -38,6 +37,11 @@ h3 {
 .leaderboard {
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.alert-info {
+	padding: 15px;
 }
 
 .leaderboard .list-group-item .badge {
