@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TwilioCon Hacker Olympics Leaderboard</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/twiliocon-styles.css">
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
     <script src="http://thehackerolympics.com/jquery.quicksand.js"></script>
@@ -40,35 +41,34 @@
       });
     </script>
     <style type="text/css">
-      .leaderboard a:first-child {
-        background-color: #FFD700;
-      }
 
-      .leaderboard a:nth-child(2) {
-        background-color: #C0C0C0;
-      }
-
-      .leaderboard a:nth-child(3) {
-        background-color: #CD7F32;
-      }
-
-      .leaderboard a:nth-child(4), .leaderboard a:nth-child(5), .leaderboard a:nth-child(6) {
-        background-color: #DCDCDC;
-      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <div class="hacker-olympics-graphic">
+            </div>
+          </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
-          <div class="leaderboard list-group">
-             
+          <h3>The Hacker Olympics Leaderboard</h3>
+          <div class="leaderboard-container">
+            <div class="leaderboard list-group">
+            </div>
           </div>
           <div class="leaderboardSource list-group" style="display:none;">
              
           </div>
         </div>
-        <div class="col-md-6" id="streamer">
+        <div class="col-md-6">
+          <h3>Team Event Stream</h3>
+            <div class="leaderboard-container">
+              <div class="col-md-6" id="streamer">
+              </div>
+            </div>
         </div>
       </div>
     </div>
