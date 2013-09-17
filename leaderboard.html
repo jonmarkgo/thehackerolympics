@@ -15,8 +15,13 @@
     <script type="text/javascript">
       function updatePoints(start) {
         $.get('http://judging.thehackerolympics.com/leaderboard.json', function(data) {
-          for (team in data['points']) {
-            $(".leaderboardSource").append('<a data-id="team-'+team+'" href="/team/' + team + '" class="list-group-item"><span class="badge">' + data['points'][team] +'</span>Team '+data['names'][team]+' (#<span class="teamnum">' + team + '</span>)</a>');
+          console.log(data);
+          for (team in data) {
+            num = team;
+            name = data[team]['name'];
+            pts = data[team]['points'];
+            console.log(data['team']);
+            $(".leaderboardSource").append('<a data-id="team-'+num+'" href="http://judging.thehackerolympics.com/team/' + num + '" class="list-group-item"><span class="badge">' + pts +'</span>Team '+name+' (#<span class="teamnum">' + num + '</span>)</a>');
           }
           $('.leaderboardSource > a').tsort('.badge',{order:'desc'}, '.teamnum', {order:'asc'});
           $('.leaderboard').quicksand( $('.leaderboardSource > a'), {
