@@ -3,7 +3,7 @@ body {
 	color: #fff;
 }
 
-h3, p {
+h3 {
 	color: #fff;
 	text-align: center;
 }
@@ -20,21 +20,26 @@ h3, p {
 	border-top: solid 2px #fff;
 
 }
-.leaderboard .list-group-item, .alert-info {
+
+.leaderboard .list-group-item {
 	padding: 10px;
 	margin: 10px 0px;
 	font-size: 20px;
-	text-transform: uppercase;
 	border-radius: 0px 0px 0px 0px;
 	background-color: #3279FF;
 	color: #fff;
-	font-weight: bold;
 	border-top: solid 2px #fff;
 	border-left: none;
 	border-bottom: none;
 	border-right: none;
 	background-image: url("../img/bg-grid.png");
 }
+
+.leaderboard {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 .leaderboard .list-group-item .badge {
 	color: #3279FF;
 }
