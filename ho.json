@@ -169,7 +169,7 @@
             "challengetitle": "Songs as Code",
             "rules": "Go to <a style=\"color:white; text-decoration:underline\"  href=\"http://thehackerolympics.com/songsascode.html\">http://thehackerolympics.com/songsascode.html</a> &ndash; here you will find a list of code snippets that each represent a song. Guess what song each snippet represents and write down your answers. Call over a judge to verify them and submit your score!",
             "scoring": "10 points per correct guess",
-            "judges": "Confirm each answer with the master list in the judging app, give the team 10 points * the number of correct answers they go. They should only submit their answers once for this challenge!",
+            "judges": "Confirm each answer with the master list in the judging app, give the team 10 points * the number of correct answers they go. They should only submit their answers once for this challenge!\n\n<a href=\"https://docs.google.com/a/twilio.com/document/d/1LwI0ybELwNOu2zOXfC5_PhBVGUmuBOu9fKppl18J3AE/edit?usp=sharing\">RUBRIC</a>",
             "resourcetitle": "Hacker Olympics Songs as Code List",
             "resourceurl": "http://thehackerolympics.com/songsascode.html"
         },
