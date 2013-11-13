@@ -1,3 +1,112 @@
-<script type="text/javascript">
-  window.location.href = 'https://www.twilio.com/conference/hackerolympics';
-</script>
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+    <meta content='' name='description'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='/favicon.ico' rel='shortcut icon'>
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic|Viga' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class='wrapper' id='main-content'></div>
+    <script id='main-layout' type='text/template'>
+      <div class='nav-content'></div>
+      <div class='content container'></div>
+    </script>
+    <script id='home-page' type='text/template'>
+      <div class='format-container'></div>
+      <h3>Schedule</h3>
+      <div class='schedule-container'></div>
+    </script>
+    <script id='challenges-page' type='text/template'>
+      <div class='rules-container'></div>
+      <h3>Challenges</h3>
+      <div class='challenges-container'></div>
+    </script>
+    <script id='navbar' type='text/template'>
+      <nav class='navbar navbar-default' role='navigation'>
+        <div class='navbar-header'>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+        <a class='navbar-brand' href='#'>
+          <h5>HackerOlympics.js</h5>
+        </a>
+        <div class='collapse navbar-collapse navbar-ex1-collapse'>
+          <ul class='nav navbar-nav'>
+            <li class='active'>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='schedule/'>About</a>
+            </li>
+            <li>
+              <a href='#contact'>Contact</a>
+            </li>
+          </ul>
+          <p class='navbar-text pull-right'>
+            at CascadiaJS
+          </p>
+        </div>
+      </nav>
+    </script>
+    <script id='schedule-item' type='text/template'>
+      <div class='row'>
+        <div class='col-xs-1 col-md-2'>
+          <p><%= scheduletimes %></p>
+        </div>
+        <div class='col-xs-6 col-md-5'>
+          <p><%= scheduleevent %></p>
+        </div>
+      </div>
+    </script>
+    <script id='format-info' type='text/template'>
+      <h3>Welcome</h3>
+      <p><%= what %></p>
+      <h3>Format</h3>
+      <p><%= how %></p>
+    </script>
+    <script id='sub-view' type='text/template'>
+      <div class='content'></div>
+    </script>
+    <script id='challenge-item' type='text/template'>
+      <div class='row'>
+        <div class='col-xs-6 col-md-2'>
+          <p><%= challengetitle %></p>
+        </div>
+        <div class='col-xs-6 col-md-8'>
+          <p><%= rules %></p>
+        </div>
+      </div>
+    </script>
+    <script id='rules-item' type='text/template'>
+      <div class='row'>
+        <div class='col-xs-1 right'>
+          <% if (typeof(rulenumber) != "undefined") { %>
+          <p><%= rulenumber %></p>
+          <% } %>
+        </div>
+        <div class='col-xs-11'>
+          <% if (typeof(rulenumber) != "undefined") { %>
+          <p><%= rule %></p>
+          <% } else { %>
+          <h3><%= rule %></h3>
+          <% } %>
+        </div>
+      </div>
+    </script>
+    <script src='js/lib/jquery-1.7.1.min.js'></script>
+    <script src='js/lib/underscore.js'></script>
+    <script src='js/lib/backbone.js'></script>
+    <script src='js/lib/backbone.marionette.min.js'></script>
+    <script src='js/lib/backbone.tabletopSync.js'></script>
+    <script src='js/lib/tabletop.js'></script>
+    <script src='js/src/main.js'></script>
+  </body>
+</html>
