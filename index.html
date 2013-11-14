@@ -6,6 +6,7 @@
     <meta content='' name='description'>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <link href='/favicon.ico' rel='shortcut icon'>
+    <link href='http://thehackerolympics.com/img/favicon.png' rel='icon' type='image/png'>
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic|Viga' rel='stylesheet' type='text/css'>
   </head>
@@ -66,7 +67,7 @@
               <a href="#" data-slug="rules">Challenges </a>
             </li>
             <li>
-              <a href="#" data-slug="leaderboard">Leaderboard </a>
+              <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
             </li>
           </ul>
           <p class='navbar-text pull-right'>
@@ -107,6 +108,11 @@
             <div class='panel-footer'>
               <b>Scoring:</b>
               <span><%= scoring %></span>
+              <% if (typeof(resourceurl) != "undefined") { %>
+              <hr>
+              <b>Resource:</b>
+              <a href= "<%= resourceurl %>" target="_blank"> <%= resourcetitle %> </a>
+              <% } %>
             </div>
           </div>
         </div>

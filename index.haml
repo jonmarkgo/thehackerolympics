@@ -67,7 +67,7 @@
 
         -# CSS
         -# ==========================================================================
-
+        %link{:rel => "icon", :type => "image/png", :href => "http://thehackerolympics.com/img/favicon.png"}
         %link{:rel => "stylesheet", :href => "css/bootstrap.css"}
         %link{:href => 'http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic|Viga', :rel =>'stylesheet', :type =>'text/css'}
         -# %link{:rel => "stylesheet", :media => "only screen and (min-width: 45em)", :href => "/css/widescreen.css"}
@@ -150,7 +150,7 @@
                         %li
                             <a href="#" data-slug="rules">Challenges </a>
                         %li
-                            <a href="#" data-slug="leaderboard">Leaderboard </a>
+                            <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
                     %p.navbar-text.pull-right
                         CascadiaJS EDITION
         %script{:id => "schedule-item", :type => "text/template"}
@@ -177,6 +177,12 @@
                         .panel-footer
                             %b Scoring: 
                             %span <%= scoring %>
+                            <% if (typeof(resourceurl) != "undefined") { %>
+                            %hr
+                            %b Resource: 
+                            <a href= "<%= resourceurl %>" target="_blank"> <%= resourcetitle %> </a>
+                            <% } %>
+                            
         %script{:id => "rules-item", :type => "text/template"}
             .row
                 .col-xs-1

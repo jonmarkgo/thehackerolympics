@@ -13,7 +13,6 @@ class MainRouter extends Backbone.Router
     routes:
         '': 'showHome'
         'rules/': 'showChallenges'
-        'leaderboard/': 'showLeaderboard'
 
     initialize: ->
         @data = new GoogleModel
@@ -47,9 +46,6 @@ class MainRouter extends Backbone.Router
 
     showChallenges: ->
         @loadGo 'rules'
-
-    showLeaderboard: ->
-        @loadGo 'leaderboard'
 
 class GoogleModel extends Backbone.Model
     url: 'js/ho.json'
@@ -194,15 +190,16 @@ class NavItems extends Backbone.Marionette.ItemView
         @delegateEvents()
 
     goToPage: (event) ->
-        event.preventDefault()
-        event.stopPropagation()
-        (@$ 'li').removeClass 'active'
-        (@$ event.currentTarget).parent('li').addClass 'active'
         slug = (@$ event.currentTarget).data('slug')
-        if slug is 'home'
-            @router.navigate '', trigger: true, replace:true
-        else
-            @router.navigate "#{slug}/", trigger: true, replace:true
+        if slug isnt 'leaderboard'
+            event.preventDefault()
+            event.stopPropagation()
+            (@$ 'li').removeClass 'active'
+            (@$ event.currentTarget).parent('li').addClass 'active'
+            if slug is 'home'
+                @router.navigate '', trigger: true, replace:true
+            else
+                @router.navigate "#{slug}/", trigger: true, replace:true
 
 
 $(document).ready ->
