@@ -113,9 +113,11 @@
             .nav-content
             .content.container
         %script{:id => "home-page", :type => "text/template"}
-            .format-container
-            %h3 Schedule
-            .schedule-container
+            .row
+                .col-xs-12.col-md-6
+                    .format-container
+                    %h3 Schedule
+                    .schedule-container
         %script{:id => "challenges-page", :type => "text/template"}
             .rules-container
             %h3 Challenges
@@ -134,41 +136,46 @@
                 .collapse.navbar-collapse.navbar-ex1-collapse
                     %ul.nav.navbar-nav
                         %li.active
-                            %a{:href => "/"} Home
+                            <a href="#" data-slug="home">Home </a>
                         %li
-                            %a{:href => "schedule/"} About
+                            <a href="#" data-slug="rules">Rules </a>
                         %li
-                            %a{:href => "#contact"} Contact
+                            <a href="#" data-slug="leaderboard">Leaderboard </a>
                     %p.navbar-text.pull-right
                         at CascadiaJS
         %script{:id => "schedule-item", :type => "text/template"}
-            .row
-                .col-xs-1.col-md-2
-                    %p <%= scheduletimes %>
-                .col-xs-6.col-md-5
-                    %p <%= scheduleevent %>
+            .row.well
+                .col-xs-3
+                    %span.time <%= scheduletimes %>
+                .col-xs-9
+                    %span <%= scheduleevent %>
         %script{:id => "format-info", :type => "text/template"}
             %h3 Welcome
-            %p <%= what %>
+            .well <%= what %>
             %h3 Format
-            %p <%= how %>
+            .well <%= how %>
         %script{:id => "sub-view", :type => "text/template"}
             .content
         %script{:id => "challenge-item", :type => "text/template"}
             .row
-                .col-xs-6.col-md-2
-                    %p <%= challengetitle %>
-                .col-xs-6.col-md-8
-                    %p <%= rules %>
+                .col-xs-12.col-md-7
+                    .panel.panel-success
+                        .panel-heading
+                            %h3.panel-title <%= challengetitle %>
+                        .panel-body
+                            <%= rules %>
+                        .panel-footer
+                            %b Scoring: 
+                            %span <%= scoring %>
         %script{:id => "rules-item", :type => "text/template"}
             .row
-                .col-xs-1.right
+                .col-xs-1
                     <% if (typeof(rulenumber) != "undefined") { %>
-                    %p <%= rulenumber %>
+                    %h2.num <%= rulenumber %>
                     <% } %>
-                .col-xs-11
+                .col-xs-11.col-md-6
                     <% if (typeof(rulenumber) != "undefined") { %>
-                    %p <%= rule %>
+                    %p.rule <%= rule %>
                     <% } else { %>
                     %h3 <%= rule %>
                     <% } %>

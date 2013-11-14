@@ -16,19 +16,33 @@ class MainRouter extends Backbone.Router
         'leaderboard/': 'showLeaderboard'
 
     initialize: ->
+        @data = new GoogleModel
+
+    loadGo: (slug) ->
+        if not @data.get('challenges')
+            @listenTo @data, 'sync', @buildLayout
+            @data.fetch()
+        _.defer =>
+            switch slug
+                when 'home' then @mainLayout.showHome()
+                when 'rules' then @mainLayout.showChallenges()
+
+
+    buildLayout: =>
         @mainLayout = new MainLayout
             el: "#main-content"
+            router: this
+            data: @data
+        @mainLayout.render()
 
     showHome: ->
-        @mainLayout.render()
-        @mainLayout.showHome()
+        @loadGo 'home'
 
     showChallenges: ->
-        @mainLayout.render()
-        @mainLayout.showChallenges()
+        @loadGo 'rules'
 
     showLeaderboard: ->
-        @homePage.render()
+        @loadGo 'leaderboard'
 
 class GoogleModel extends Backbone.Model
     url: 'js/ho.json'
@@ -39,24 +53,21 @@ class MainLayout extends Backbone.Marionette.Layout
         nav: '.nav-content'
         content: '.content'
 
-    initialize: ->
-        @data = new GoogleModel
+    initialize: (options) ->
+        {@router, @data} = options
+        @navView = new NavItems
+            router: @router
 
     onRender: (slug) ->
-        @nav.show new NavItems
+        @nav.show @navView
 
     showHome: ->
-        @data.fetch()
-        @listenTo @data, 'sync', =>
-            @content.show new HomePage
-                data: @data
+        @content.show new HomePage
+            data: @data
 
     showChallenges: ->
-        @data.fetch()
-        @listenTo @data, 'sync', =>
-            @content.show new ChallengesPage
-                data: @data
-            console.log @data
+        @content.show new ChallengesPage
+            data: @data
 
 class HomePage extends Backbone.Marionette.Layout
     template: '#home-page'
@@ -138,7 +149,6 @@ class ChallengesPage extends Backbone.Marionette.Layout
 
     onShow: ->
         @rules.show @rulesView
-        console.log @rulesData
         @challenges.show @challengesView
 
 
@@ -161,7 +171,7 @@ class ScheduleItemView extends Backbone.Marionette.ItemView
     
 class ScheduleListView extends Backbone.Marionette.CollectionView
     itemView: ScheduleItemView
-    className: 'weiners'
+    className: 'schedule'
 
 class EventInfoView extends Backbone.Marionette.ItemView
     template: '#format-info'
@@ -169,6 +179,24 @@ class EventInfoView extends Backbone.Marionette.ItemView
 
 class NavItems extends Backbone.Marionette.ItemView
     template: '#navbar'
+    events:
+        'click a': 'goToPage'
+
+    initialize: (options) ->
+        {@router} = options
+        @delegateEvents()
+
+    goToPage: (event) ->
+        event.preventDefault()
+        event.stopPropagation()
+        (@$ 'li').removeClass 'active'
+        (@$ event.currentTarget).parent('li').addClass 'active'
+        slug = (@$ event.currentTarget).data('slug')
+        if slug is 'home'
+            @router.navigate '', trigger: true, replace:true
+        else
+            @router.navigate "#{slug}/", trigger: true, replace:true
+
 
 $(document).ready ->
     app.start()

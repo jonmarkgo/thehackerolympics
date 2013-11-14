@@ -2,7 +2,8 @@
 (function() {
   var ChallengeItemView, ChallengesPage, ChallengesView, EventInfoView, EventView, GoogleModel, HomePage, MainApp, MainLayout, MainRouter, NavItems, RulesItemView, RulesView, ScheduleItemView, ScheduleListView, ScheduleView, SubCollectionView, SubView, app, public_spreadsheet_url, _ref, _ref1, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9,
     __hasProp = {}.hasOwnProperty,
-    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
   public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0AuGqzqpyR-eVdF8tbWUxMFhhMTRjYzBtSHJLVEswU1E&output=html';
 
@@ -32,6 +33,7 @@
     __extends(MainRouter, _super);
 
     function MainRouter() {
+      this.buildLayout = __bind(this.buildLayout, this);
       _ref1 = MainRouter.__super__.constructor.apply(this, arguments);
       return _ref1;
     }
@@ -43,23 +45,44 @@
     };
 
     MainRouter.prototype.initialize = function() {
-      return this.mainLayout = new MainLayout({
-        el: "#main-content"
+      return this.data = new GoogleModel;
+    };
+
+    MainRouter.prototype.loadGo = function(slug) {
+      var _this = this;
+      if (!this.data.get('challenges')) {
+        this.listenTo(this.data, 'sync', this.buildLayout);
+        this.data.fetch();
+      }
+      return _.defer(function() {
+        switch (slug) {
+          case 'home':
+            return _this.mainLayout.showHome();
+          case 'rules':
+            return _this.mainLayout.showChallenges();
+        }
       });
     };
 
+    MainRouter.prototype.buildLayout = function() {
+      this.mainLayout = new MainLayout({
+        el: "#main-content",
+        router: this,
+        data: this.data
+      });
+      return this.mainLayout.render();
+    };
+
     MainRouter.prototype.showHome = function() {
-      this.mainLayout.render();
-      return this.mainLayout.showHome();
+      return this.loadGo('home');
     };
 
     MainRouter.prototype.showChallenges = function() {
-      this.mainLayout.render();
-      return this.mainLayout.showChallenges();
+      return this.loadGo('rules');
     };
 
     MainRouter.prototype.showLeaderboard = function() {
-      return this.homePage.render();
+      return this.loadGo('leaderboard');
     };
 
     return MainRouter;
@@ -95,33 +118,27 @@
       content: '.content'
     };
 
-    MainLayout.prototype.initialize = function() {
-      return this.data = new GoogleModel;
+    MainLayout.prototype.initialize = function(options) {
+      this.router = options.router, this.data = options.data;
+      return this.navView = new NavItems({
+        router: this.router
+      });
     };
 
     MainLayout.prototype.onRender = function(slug) {
-      return this.nav.show(new NavItems);
+      return this.nav.show(this.navView);
     };
 
     MainLayout.prototype.showHome = function() {
-      var _this = this;
-      this.data.fetch();
-      return this.listenTo(this.data, 'sync', function() {
-        return _this.content.show(new HomePage({
-          data: _this.data
-        }));
-      });
+      return this.content.show(new HomePage({
+        data: this.data
+      }));
     };
 
     MainLayout.prototype.showChallenges = function() {
-      var _this = this;
-      this.data.fetch();
-      return this.listenTo(this.data, 'sync', function() {
-        _this.content.show(new ChallengesPage({
-          data: _this.data
-        }));
-        return console.log(_this.data);
-      });
+      return this.content.show(new ChallengesPage({
+        data: this.data
+      }));
     };
 
     return MainLayout;
@@ -286,7 +303,6 @@
 
     ChallengesPage.prototype.onShow = function() {
       this.rules.show(this.rulesView);
-      console.log(this.rulesData);
       return this.challenges.show(this.challengesView);
     };
 
@@ -378,7 +394,7 @@
 
     ScheduleListView.prototype.itemView = ScheduleItemView;
 
-    ScheduleListView.prototype.className = 'weiners';
+    ScheduleListView.prototype.className = 'schedule';
 
     return ScheduleListView;
 
@@ -409,6 +425,35 @@
     }
 
     NavItems.prototype.template = '#navbar';
+
+    NavItems.prototype.events = {
+      'click a': 'goToPage'
+    };
+
+    NavItems.prototype.initialize = function(options) {
+      this.router = options.router;
+      return this.delegateEvents();
+    };
+
+    NavItems.prototype.goToPage = function(event) {
+      var slug;
+      event.preventDefault();
+      event.stopPropagation();
+      (this.$('li')).removeClass('active');
+      (this.$(event.currentTarget)).parent('li').addClass('active');
+      slug = (this.$(event.currentTarget)).data('slug');
+      if (slug === 'home') {
+        return this.router.navigate('', {
+          trigger: true,
+          replace: true
+        });
+      } else {
+        return this.router.navigate("" + slug + "/", {
+          trigger: true,
+          replace: true
+        });
+      }
+    };
 
     return NavItems;
 

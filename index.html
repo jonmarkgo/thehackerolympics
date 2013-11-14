@@ -16,9 +16,13 @@
       <div class='content container'></div>
     </script>
     <script id='home-page' type='text/template'>
-      <div class='format-container'></div>
-      <h3>Schedule</h3>
-      <div class='schedule-container'></div>
+      <div class='row'>
+        <div class='col-xs-12 col-md-6'>
+          <div class='format-container'></div>
+          <h3>Schedule</h3>
+          <div class='schedule-container'></div>
+        </div>
+      </div>
     </script>
     <script id='challenges-page' type='text/template'>
       <div class='rules-container'></div>
@@ -41,13 +45,13 @@
         <div class='collapse navbar-collapse navbar-ex1-collapse'>
           <ul class='nav navbar-nav'>
             <li class='active'>
-              <a href='/'>Home</a>
+              <a href="#" data-slug="home">Home </a>
             </li>
             <li>
-              <a href='schedule/'>About</a>
+              <a href="#" data-slug="rules">Rules </a>
             </li>
             <li>
-              <a href='#contact'>Contact</a>
+              <a href="#" data-slug="leaderboard">Leaderboard </a>
             </li>
           </ul>
           <p class='navbar-text pull-right'>
@@ -57,44 +61,52 @@
       </nav>
     </script>
     <script id='schedule-item' type='text/template'>
-      <div class='row'>
-        <div class='col-xs-1 col-md-2'>
-          <p><%= scheduletimes %></p>
+      <div class='row well'>
+        <div class='col-xs-3'>
+          <span class='time'><%= scheduletimes %></span>
         </div>
-        <div class='col-xs-6 col-md-5'>
-          <p><%= scheduleevent %></p>
+        <div class='col-xs-9'>
+          <span><%= scheduleevent %></span>
         </div>
       </div>
     </script>
     <script id='format-info' type='text/template'>
       <h3>Welcome</h3>
-      <p><%= what %></p>
+      <div class='well'><%= what %></div>
       <h3>Format</h3>
-      <p><%= how %></p>
+      <div class='well'><%= how %></div>
     </script>
     <script id='sub-view' type='text/template'>
       <div class='content'></div>
     </script>
     <script id='challenge-item' type='text/template'>
       <div class='row'>
-        <div class='col-xs-6 col-md-2'>
-          <p><%= challengetitle %></p>
-        </div>
-        <div class='col-xs-6 col-md-8'>
-          <p><%= rules %></p>
+        <div class='col-xs-12 col-md-7'>
+          <div class='panel panel-success'>
+            <div class='panel-heading'>
+              <h3 class='panel-title'><%= challengetitle %></h3>
+            </div>
+            <div class='panel-body'>
+              <%= rules %>
+            </div>
+            <div class='panel-footer'>
+              <b>Scoring:</b>
+              <span><%= scoring %></span>
+            </div>
+          </div>
         </div>
       </div>
     </script>
     <script id='rules-item' type='text/template'>
       <div class='row'>
-        <div class='col-xs-1 right'>
+        <div class='col-xs-1'>
           <% if (typeof(rulenumber) != "undefined") { %>
-          <p><%= rulenumber %></p>
+          <h2 class='num'><%= rulenumber %></h2>
           <% } %>
         </div>
-        <div class='col-xs-11'>
+        <div class='col-xs-11 col-md-6'>
           <% if (typeof(rulenumber) != "undefined") { %>
-          <p><%= rule %></p>
+          <p class='rule'><%= rule %></p>
           <% } else { %>
           <h3><%= rule %></h3>
           <% } %>

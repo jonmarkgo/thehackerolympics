@@ -7,11 +7,11 @@
     ],
     "schedule": [
         {
-            "scheduletimes": "5:30-6:30",
+            "scheduletimes": "6:00 - 7:00",
             "scheduleevent": "Eat, form teams, challenges released"
         },
         {
-            "scheduletimes": "6:30-10:00",
+            "scheduletimes": "7:00 - 10:00",
             "scheduleevent": "Hack, play, compete"
         },
         {
@@ -21,59 +21,19 @@
     ],
     "sponsors": [
         {
-            "sponsorname": "Amazon Web Services",
-            "sponsorimg": "aws.png",
-            "sponsorurl": "http://aws.amazon.com/"
+            "sponsorname": "Twilio",
+            "sponsorimg": "twilio.png",
+            "sponsorurl": "http://twilio.com"
         },
         {
-            "sponsorname": "Atlassian",
-            "sponsorimg": "atlassian.png",
-            "sponsorurl": "https://www.atlassian.com/"
+            "sponsorname": "Firebase",
+            "sponsorimg": "firebase.png",
+            "sponsorurl": "http://firebase.com"
         },
         {
-            "sponsorname": "Box",
-            "sponsorimg": "box.png",
-            "sponsorurl": "https://app.box.com/home/"
-        },
-        {
-            "sponsorname": "Facebook",
-            "sponsorimg": "facebook.png",
-            "sponsorurl": "https://developers.facebook.com/"
-        },
-        {
-            "sponsorname": "Google Cloud Platform",
-            "sponsorimg": "google-cloud-platform.png",
-            "sponsorurl": "https://cloud.google.com/"
-        },
-        {
-            "sponsorname": "Leap Motion",
-            "sponsorimg": "leap-motion.png",
-            "sponsorurl": "https://www.leapmotion.com/"
-        },
-        {
-            "sponsorname": "Parse",
-            "sponsorimg": "parse.png",
-            "sponsorurl": "https://parse.com/"
-        },
-        {
-            "sponsorname": "Plantronics",
-            "sponsorimg": "plantronics.png",
-            "sponsorurl": "http://developer.plantronics.com/welcome"
-        },
-        {
-            "sponsorname": "SendGrid",
+            "sponsorname": "Sendgrid",
             "sponsorimg": "send-grid.png",
-            "sponsorurl": "http://sendgrid.com/"
-        },
-        {
-            "sponsorname": "WhitePages",
-            "sponsorimg": "white-pages.png",
-            "sponsorurl": "http://developer.whitepages.com/"
-        },
-        {
-            "sponsorname": "Windows Azure",
-            "sponsorimg": "windows-azure.png",
-            "sponsorurl": "http://www.windowsazure.com/en-us/pricing/free-trial/"
+            "sponsorurl": "http://sendgrid.com"
         }
     ],
     "challenges": [
@@ -188,6 +148,23 @@
             "judges": "Generator a GIF using their app and verify that it uploads to Azure",
             "resourcetitle": "Windows Azure",
             "resourceurl": "http://www.windowsazure.com/en-us/"
+        },
+        {
+            "challengetitle": "Digital Rooster",
+            "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
+            "scoring": "100 points for successsfully building the app.<br />50 bonus points for opening up signup to users",
+            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires."
+        },
+        {
+            "challengetitle": "Scorched Earth",
+            "rules": "Write a browser extension for your favorite browser that pays homage to classic turn-based strategy game <a href=\"https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)\">Scorched Earth</a>. Keep it simple, just have one tank that uses the current websites content as a playing field. Once you're able to have a tank properly destroy page content, let a judge know.",
+            "scoring": "200 points for successfully building extension.",
+            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content."
+        },
+        {
+            "scoring": "200 points",
+            "challengetitle": "Peter’s Game\n",
+            "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n"
         }
     ],
     "rules": [
