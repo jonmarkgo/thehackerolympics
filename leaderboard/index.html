@@ -21,7 +21,7 @@
             pts = data[team]['points'];
             $(".leaderboardSource").append('<a data-id="team-'+num+'" href="http://judging.thehackerolympics.com/team/' + num + '" class="list-group-item"><span class="badge">' + pts +'</span>Team '+name+' (#<span class="teamnum">' + num + '</span>)</a>');
           }
-          $('.leaderboardSource > a').tsort('.badge',{order:'desc'}, '.teamnum', {order:'asc'});
+          $('.leaderboardSource > a').sort('.badge',{order:'desc'}, '.teamnum', {order:'asc'});
           $('.leaderboard').quicksand( $('.leaderboardSource > a'), {
             atomic: true,
             retainExisting: false});
