@@ -5997,6 +5997,9 @@ h5 {
 .challenges h3 {
   color: black;
 }
+.challenge-row {
+  margin-left: 10.5%;
+}
 .hero-img {
   display: block;
   width: 100%;
@@ -6420,5 +6423,9 @@ td.visible-print {
     background-size: 100%;
     height: 120px;
     margin: 0px;
+  }
+  .navbar-brand {
+    position: absolute;
+    top: 0px;
   }
 }

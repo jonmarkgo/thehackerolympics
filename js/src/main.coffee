@@ -17,15 +17,22 @@ class MainRouter extends Backbone.Router
 
     initialize: ->
         @data = new GoogleModel
+        @firstLoad = true
 
     loadGo: (slug) ->
         if not @data.get('challenges')
             @listenTo @data, 'sync', @buildLayout
             @data.fetch()
-        _.defer =>
+        if @firstLoad
+            delayTime = 100
+            @firstLoad = false
+        else
+            delayTime = 0
+        setTimeout =>
             switch slug
                 when 'home' then @mainLayout.showHome()
                 when 'rules' then @mainLayout.showChallenges()
+        , delayTime
 
 
     buildLayout: =>

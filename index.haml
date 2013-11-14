@@ -116,14 +116,17 @@
             .row
                 .col-xs-12
                     .hero-img
-                .col-xs-12.col-md-6
+                .col-md-6
                     .format-container
+                .col-md-6
                     %h3 Schedule
                     .schedule-container
         %script{:id => "challenges-page", :type => "text/template"}
             .rules-container
-            %h3 Challenges
-            .challenges-container
+            .row
+                .col-md-offset-1.challenge-row
+                    %h3 Challenges
+                    .challenges-container
         %script{:id => "navbar", :type => "text/template"}
             %nav.navbar.navbar-default{:role => "navigation"}
                 .navbar-header
@@ -140,7 +143,7 @@
                         %li.active
                             <a href="#" data-slug="home">Home </a>
                         %li
-                            <a href="#" data-slug="rules">Rules </a>
+                            <a href="#" data-slug="rules">Challenges </a>
                         %li
                             <a href="#" data-slug="leaderboard">Leaderboard </a>
                     %p.navbar-text.pull-right
@@ -160,7 +163,7 @@
             .content
         %script{:id => "challenge-item", :type => "text/template"}
             .row
-                .col-xs-12.col-md-7
+                .col-md-9
                     .panel.panel-success
                         .panel-heading
                             %h3.panel-title <%= challengetitle %>
@@ -199,6 +202,7 @@
         %script{:src => "js/lib/backbone.js"}
         %script{:src => "js/lib/backbone.marionette.min.js"}
         %script{:src => "js/lib/backbone.tabletopSync.js"}
+        %script{:src => "js/lib/bootstrap/bootstrap-collapse.js"}
         %script{:src => "js/lib/tabletop.js"}
         %script{:src => "js/src/main.js"}
 
