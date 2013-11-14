@@ -2,7 +2,7 @@
     "event_info": [
         {
             "what": "<p>Hacker Olympics is a new, interactive spin on the basic hackathon. Hackers participate in a tournament, where diverse knowledge and skills help them to conquer a wide range of challenges. Accumulate points in a race to Hacker Olympics supremacy.</p><p>\nAt 10:00pm, it’s pencils down and laptops closed. The Top 3 Teams will be awarded prizes and named Hacker Olympic Medalists!</p>",
-            "how": "<p>\nThe Hacker Olympics is a fast-paced event where teams compete for five hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Participate in teams of 4 - 6 people in front-end, back-end, or cross-discipline challenges. Knockout your competition with a red shell in the Mario Kart tournament. Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, cryptography challenges, code puzzles, building of a meme generator, and more.</p>"
+            "how": "<p>\nHackerOlympics.js is a fast-paced event where teams compete for three hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, Songs as Code, UrbanSpotting.xxx and more.</p>"
         }
     ],
     "schedule": [
@@ -50,14 +50,6 @@
             "judges": "Count the levels of cups to determine who is the winner. Record the team number and level of cups in the score sheet for each of the 6 teams competing in this round."
         },
         {
-            "challengetitle": "ASCII Olympics - SendGrid",
-            "rules": "<p>Build an application that can receive incoming emails with image attachments to {address}@{your team name}.asciiolympics.co using the SendGrid Parse API. Your application should respond with an ASCII representation of the image.</p>\n\n<p><strong>Bonus:</strong> Build an ASCII interface to read all of the e-mails received at this address. Image attachments in the ASCII interface should display in ASCII as well!</p>",
-            "scoring": "100 points – For completing the main challenge</br>\n\n50 points – For completing the bonus challenge as well",
-            "judges": "Have the team demo their application by sending an arbitrary image of your choice to the given address and verifying that the reply is an ASCII representation of the image. If they have participated in the bonus challenge, verify that they have created a purely text-based interface to read their e-mails in.",
-            "resourcetitle": "SendGrid Parse API Docs",
-            "resourceurl": "http://sendgrid.com/docs/API_Reference/Webhooks/parse.html"
-        },
-        {
             "challengetitle": "Escher’s Login",
             "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
             "scoring": "100 points – For completing the main challenge</br>",
@@ -73,19 +65,10 @@
             "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json"
         },
         {
-            "challengetitle": "CoffeeScript - Twilio",
-            "rules": "Write a Twilio app in coffeescript that will deliver a coffee drink to one of the judges when they text the number. Be creative. The app must return a cup of coffee as ordered.",
-            "scoring": "200 points – For completing the main challenge",
-            "judges": "Have the team demo their application to you. Try sending a sample message to their application to verify that it works. It only works if a cup of coffee is delivered to you at some point.",
-            "resourceurl": "http://arduino.cc/en/Tutorial/Blink?from=Tutorial.BlinkingLED"
-        },
-        {
-            "challengetitle": "Rube Goldburg Challenge - Parse",
-            "rules": "Build a code-powered Rube Goldberg chain reaction machine that begins and ends with a Parse API. The data must stay intact throughout the chain! You must transfer the following JSON object through the entire chain intact: {'data':'TwilioCon', 'foo': {'bar':'baz'}}</br>\n<strong>Example:</strong> Enter data in a web form which POSTs to Parse. Parse fires off an SMS with the user’s input which is received by another Twilio phone number, and is then sent via e-mail to an address that is based on Sendgrid, which then sends the data back to Parse to be stored in a database. Be as creative as possible!",
-            "scoring": "20 points per unique API that is part of the successful chain (API, webhook, etc.)",
-            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 10 points for each link in the chain once it has been proven to work successfully.",
-            "resourcetitle": "Parse Docs",
-            "resourceurl": "https://www.parse.com/docs"
+            "challengetitle": "Substack Rube Goldburg Challenge",
+            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by substack (https://github.com/substack?tab=repositories) as possible.  ",
+            "scoring": "20 points per module used.",
+            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 20 points for each link in the chain once it has been proven to work successfully."
         },
         {
             "challengetitle": "Songs as Code",
@@ -99,9 +82,7 @@
             "challengetitle": "The Anti-Optimizer",
             "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
             "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\n50 bonus points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays.",
-            "resourcetitle": "Amazon EC2",
-            "resourceurl": "http://aws.amazon.com/ec2/"
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays."
         },
         {
             "challengetitle": "Digital Rooster",
@@ -120,6 +101,32 @@
             "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n",
             "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in realtime via ajax.",
             "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map."
+        },
+        {
+            "challengetitle": "UrbanSpotting.xxx",
+            "rules": "Find an available domain name for a believable startup name generated via a script that uses Urban Dictionary as it's data source. Pair up to create a 3-slide pitch that explains what this startup does - put it online so we can share it with everyone.",
+            "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
+            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics"
+        },
+        {
+            "challengetitle": "Use The Force",
+            "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone.",
+            "scoring": "100 points for getting your saber on.",
+            "judges": "Wave the phone. Check that it works."
+        },
+        {
+            "challengetitle": "Hacker Newz Filter",
+            "rules": "Write an extension for your favorite browser that hides article entries on news.ycombinator.com that contain certain keywords.",
+            "scoring": "100 points for successfuly demoing your extension. <br /> BONUS: 50 points for altering the headlines.",
+            "judges": "Verify that the extension works. Verify the source code."
+        },
+        {
+            "challengetitle": "What Does a Mom Tweet?",
+            "rules": "Write a Twilio app that allows your mom to tweet on her very own account, without ever visiting twitter.com. She should be able to tweet embarrasing things, by simply sending a text.",
+            "scoring": "100 points for successfully tweeting via SMS from your phone, under a new twitter account. <br /> BONUS: 50 points for using Twilio VOICE.",
+            "judges": "Verify that the app tweets after they send it a text. For bonus call the number and see if it tweets.",
+            "resourcetitle": "Twilio Docs",
+            "resourceurl": "http://twilio.com/docs"
         }
     ],
     "rules": [
