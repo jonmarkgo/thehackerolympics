@@ -2,16 +2,16 @@
     "event_info": [
         {
             "what": "<p>Hacker Olympics is a new, interactive spin on the basic hackathon. Hackers participate in a tournament, where diverse knowledge and skills help them to conquer a wide range of challenges. Accumulate points in a race to Hacker Olympics supremacy.</p><p>\nAt 10:00pm, it’s pencils down and laptops closed. The Top 3 Teams will be awarded prizes and named Hacker Olympic Medalists!</p>",
-            "how": "<p>\nThe Hacker Olympics is a fast-paced event where teams compete for five hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Participate in teams of 4 - 6 people in front-end, back-end, or cross-discipline challenges. Knockout your competition with a red shell in the Mario Kart tournament. Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, cryptography challenges, code puzzles, building of a meme generator, and more.</p>"
+            "how": "<p>\nHackerOlympics.js is a fast-paced event where teams compete for three hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, Songs as Code, UrbanSpotting.xxx and more.</p>"
         }
     ],
     "schedule": [
         {
-            "scheduletimes": "5:30-6:30",
+            "scheduletimes": "6:00 - 7:00",
             "scheduleevent": "Eat, form teams, challenges released"
         },
         {
-            "scheduletimes": "6:30-10:00",
+            "scheduletimes": "7:00 - 10:00",
             "scheduleevent": "Hack, play, compete"
         },
         {
@@ -21,68 +21,22 @@
     ],
     "sponsors": [
         {
-            "sponsorname": "Amazon Web Services",
-            "sponsorimg": "aws.png",
-            "sponsorurl": "http://aws.amazon.com/"
+            "sponsorname": "Twilio",
+            "sponsorimg": "twilio.png",
+            "sponsorurl": "http://twilio.com"
         },
         {
-            "sponsorname": "Atlassian",
-            "sponsorimg": "atlassian.png",
-            "sponsorurl": "https://www.atlassian.com/"
+            "sponsorname": "Firebase",
+            "sponsorimg": "firebase.png",
+            "sponsorurl": "http://firebase.com"
         },
         {
-            "sponsorname": "Box",
-            "sponsorimg": "box.png",
-            "sponsorurl": "https://app.box.com/home/"
-        },
-        {
-            "sponsorname": "Facebook",
-            "sponsorimg": "facebook.png",
-            "sponsorurl": "https://developers.facebook.com/"
-        },
-        {
-            "sponsorname": "Google Cloud Platform",
-            "sponsorimg": "google-cloud-platform.png",
-            "sponsorurl": "https://cloud.google.com/"
-        },
-        {
-            "sponsorname": "Leap Motion",
-            "sponsorimg": "leap-motion.png",
-            "sponsorurl": "https://www.leapmotion.com/"
-        },
-        {
-            "sponsorname": "Parse",
-            "sponsorimg": "parse.png",
-            "sponsorurl": "https://parse.com/"
-        },
-        {
-            "sponsorname": "Plantronics",
-            "sponsorimg": "plantronics.png",
-            "sponsorurl": "http://developer.plantronics.com/welcome"
-        },
-        {
-            "sponsorname": "SendGrid",
+            "sponsorname": "Sendgrid",
             "sponsorimg": "send-grid.png",
-            "sponsorurl": "http://sendgrid.com/"
-        },
-        {
-            "sponsorname": "WhitePages",
-            "sponsorimg": "white-pages.png",
-            "sponsorurl": "http://developer.whitepages.com/"
-        },
-        {
-            "sponsorname": "Windows Azure",
-            "sponsorimg": "windows-azure.png",
-            "sponsorurl": "http://www.windowsazure.com/en-us/pricing/free-trial/"
+            "sponsorurl": "http://sendgrid.com"
         }
     ],
     "challenges": [
-        {
-            "challengetitle": "Bombs Away! - Scheduled",
-            "rules": "<p>Each team must select 4 players and send one person each to a Wii station at their scheduled time.</p>\n \n<p>The players will compete in a 10-minute Bomberman tournament. They will be awarded points based on ranked number of kills in each game. </p>\n\n<p>If there is a tie, the tied teams will face off in a 1-kill match. The ranking in that match is the places they will get for score purposes.</p>",
-            "scoring": "<strong>Scoring (per station):</strong></br>\nMost Kills: 25 points</br>\n2nd Most: 15 points</br>\n3rd most: 5 points",
-            "judges": "Once your station’s game is finished, record the number of kills and corresponding team # for each of the 4 teams at your station."
-        },
         {
             "challengetitle": "Startup Charades - Scheduled",
             "rules": "<p>Teams must pair up with another team so that at each Station so there are 2 teams competing against one another.</p>\n \n<p>Charades is a game of pantomimes: you have to \"act out\" a phrase (in this case, a startup) without speaking, while the other members of your team try to guess what the phrase is. The objective is for your team to guess the phrase as quickly as possible.</p>\n \n<p>Each team can choose 3 players who each get 2 minutes to act out as many clues as possible. While TEAM A is acting out clues TEAM B should be keeping time.</p>\n \n<p><strong>Game Play:</strong>\nA player from TEAM A must draw a piece of paper from the Businessy Entrepreneurial Answer Receptacle (B.E.A.R) and act it out silently for the rest of his teammates. At the end of two minutes TEAM A should tally their correct answers and write it on the whiteboard.</p>\n \n<p>As soon as TEAM A completes their first round, TEAM B should choose a player to act out clues. This should of course repeat until either: 3 players from each team has acted out clues.</p>",
@@ -96,74 +50,25 @@
             "judges": "Count the levels of cups to determine who is the winner. Record the team number and level of cups in the score sheet for each of the 6 teams competing in this round."
         },
         {
-            "challengetitle": "World Bending - Leap Motion",
-            "rules": "<p>You're an alien race attempting to save Earth from destruction.  You must race your spaceship across the world hitting all checkpoints, in sequence to diffuse the RedMatter explosives as fast as you can before detonation. Bend the world to your will to shrink the distance between you and the next checkpoint. Hectic 2 player fun.</p>\n\n<strong>Player 1:</strong> Uses Leap. Controls ship direction, hits all checkpoints.<br>\n<strong>Player 2:</strong> Uses Leap. Bends world, tries to minimize distance between Player 1 and the checkpoint.<br>\n\n<p>Teams have 25 minutes to practice the controls and pick who participates in the challenge. Teams can tweak various settings such as the map projection and controls to optimize their play. These settings can be configured before the clock starts or during play by a 3rd player with a mouse.</p>\n\n<p>Teams may change code to modify the interface directing the ship or rotating the globe. They may not increase the speed of the ship, change the size of maps, modify target positions, or disable existing features.</p>\n\n<p>In the last 5 minutes, teams run a single time trial. The lowest time for the day is the winner of the challenge overall.</p>",
-            "scoring": "100 points for finding all of the predetermined spots</br>\n\n50 points for revising the navigation code to make it faster to find each spot",
-            "judges": "If a team navigates to all of the predetermined spots, they get 100 points. Record their time limit as well. If they revised the code to make it faster, give them 50 bonus points."
-        },
-        {
-            "challengetitle": "ASCII Olympics - SendGrid",
-            "rules": "<p>Build an application that can receive incoming emails with image attachments to {address}@{your team name}.asciiolympics.co using the SendGrid Parse API. Your application should respond with an ASCII representation of the image.</p>\n\n<p><strong>Bonus:</strong> Build an ASCII interface to read all of the e-mails received at this address. Image attachments in the ASCII interface should display in ASCII as well!</p>",
-            "scoring": "100 points – For completing the main challenge</br>\n\n50 points – For completing the bonus challenge as well",
-            "judges": "Have the team demo their application by sending an arbitrary image of your choice to the given address and verifying that the reply is an ASCII representation of the image. If they have participated in the bonus challenge, verify that they have created a purely text-based interface to read their e-mails in.",
-            "resourcetitle": "SendGrid Parse API Docs",
-            "resourceurl": "http://sendgrid.com/docs/API_Reference/Webhooks/parse.html"
-        },
-        {
-            "challengetitle": "Catch Me If You Can - Google",
-            "rules": "<p>You're Edward Snowden on the run. Plan your escape plan starting from Honolulu International Airport (HNL). Luckily, you have the power of BigQuery and a flights dataset at your disposal. So what's your plan? Avoid being on the ground as long as possible? Travel the longest distances? Travel to countries with no extradition agreements?\nDeploy your application to App Engine. It should be able to calculate 3 potential escape routes with at least 4 destinations each.</p>\n\n<p>Use the BigQuery dataset \"airline_ontime_data.flights\" in the dataset \"bigquery-samples\" for this challenge.</p>\n \n</p><strong>Bonus:</strong> Build a variable interface that lets the user select their variable “escape plan” – generate results based on their input. Example: rather than ONLY allowing the user to fly flights with the longest distance, let the user select if they prefer minimal ground time or longest flight time, etc.</p>",
-            "scoring": "100 points – For completing the main challenge</br>\n\n50 points – For completing the bonus challenge as well",
-            "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. Verify that it calculates 3 potential escape routes and that each one has 4 destinations.",
-            "resourcetitle": "BigQuery Docs",
-            "resourceurl": "https://developers.google.com/bigquery/what-is-bigquery"
-        },
-        {
-            "challengetitle": "Developers, Developers, Developers, Developers - Box",
-            "rules": "<p>Build an application where the user can provision a new Box account using their e-mail address. Upon completion of the provisioning, upload the following image to a new folder on their account: <a style=\"color:white; text-decoration:underline\"  href=\"http://i2.cdn.turner.com/cnn/dam/assets/130823121452-02-steve-ballmer-horizontal-gallery.jpg\">http://i2.cdn.turner.com/cnn/dam/assets/130823121452-02-steve-ballmer-horizontal-gallery.jpg</a></p>\n\n<p><strong>Bonus:</strong> Build a Ballmer meme generator (with text on top and bottom inputted by user) that uses your newly created Box account as its data store.</p> <p>Use the development API key: 3xldapik41i8vv4cy54g6s5xwg9o7bvy & secret: m6HsGfxr9sGzz2ekVgdDlsSFHJtljqf5 to accomplish your task. </p>",
-            "scoring": "100 points for uploading the image to a newly provisioned Box account\n</br>\n50 points for generating a meme dynamically and uploading it to Box",
-            "judges": "If their script uploads the static image to Box, they get 100 points. If the user can enter meme text (top and bottom of image), they get 50 bonus.",
-            "resourcetitle": "Box Provision API",
-            "resourceurl": "http://developers.box.com/provision/"
-        },
-        {
-            "challengetitle": "Escher’s Login - Plantronics",
-            "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>\n \n<p><strong>Bonus:</strong> Use a Plantronics headset and their SDK as part of your authentication system. You get to keep your headset while supplies last if you successfully complete this bonus challenge!</p>",
-            "scoring": "100 points – For completing the main challenge</br>\n\n100 points – For completing the bonus challenge as well",
+            "challengetitle": "Escher’s Login",
+            "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
+            "scoring": "100 points – For completing the main challenge</br>",
             "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. If they have done the bonus challenge successfully, they get to keep their headset.",
-            "resourcetitle": "Plantronics Developer Docs",
-            "resourceurl": "http://developer.plantronics.com/welcome"
+            "resourcetitle": "Plantronics Developer Docs"
         },
         {
-            "challengetitle": "Hacker Relay Race - Atlassian",
-            "rules": "Create a new Atlassian Bitbucket git repo. Give each of your team members access to it. One of your team members should create the first portion of an application that utilizes the Hacker Olympics leaderboard.json API. Each of your team members must then create their own branch of the application on Bitbucket and merge their code via a Pull Request.",
+            "challengetitle": "Hacker Relay Race",
+            "rules": "Create a new git repo. Give each of your team members access to it. One of your team members should create the first portion of an application that utilizes the Hacker Olympics leaderboard.json API. Each of your team members must then create their own branch of the application and merge their code via a Pull Request.",
             "scoring": "100 points for completion",
             "judges": "Have the team demo their app, confirm that all team members have branched and committed to the project and that theyr'e using the leaderboard json.",
             "resourcetitle": "Hacker Olympics Leaderboard JSON",
             "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json"
         },
         {
-            "challengetitle": "Phone Number Discus - WhitePages",
-            "rules": "<p>Go to <a style=\"color:white; text-decoration:underline\" href=\"http://thehackerolympics.com/phonenumbers.html\">http://thehackerolympics.com/phonenumbers.html</a> to find a comma-delimited list of phone numbers, Use the WhitePages Phone Number Lookup API to find the correlation between all of these numbers. There may be multiple correct answers to this challenge! You will need to use your powers of observation (not just your elite hacker skills) to solve this one.</p><p>API Key: 6f4e7b7245c1edc46efa00f1d5000f6c</p>",
-            "scoring": "100 points for finding one of the correct correlations\n</br>\n50 points for creativity",
-            "judges": "If a team finds the San Francisco correlation, they receive 100 points\n</br>\nIf they find a different correlation that makes sense, add 50 points",
-            "resourcetitle": "WhitePages PRO Docs",
-            "resourceurl": "http://whitepages.github.io/pro-api-doc/"
-        },
-        {
-            "challengetitle": "Retro SMS - Twilio",
-            "rules": "Check out an Arduino Uno and a USB cable from the registration desk. Use the Twilio <Sms> API and your Arduino in order to build a system that receives incoming SMS messages and blinks them out in Morse code on your Arduino using the built-in LED.",
-            "scoring": "200 points – For completing the main challenge",
-            "judges": "Have the team demo their application to you. Try sending a sample message to their application to verify that it works.",
-            "resourcetitle": "Arduino Blinking LED Tutorial",
-            "resourceurl": "http://arduino.cc/en/Tutorial/Blink?from=Tutorial.BlinkingLED"
-        },
-        {
-            "challengetitle": "Rube Goldburg Challenge - Parse",
-            "rules": "Build a code-powered Rube Goldberg chain reaction machine that begins and ends with a Parse API. The data must stay intact throughout the chain! You must transfer the following JSON object through the entire chain intact: {'data':'TwilioCon', 'foo': {'bar':'baz'}}</br>\n<strong>Example:</strong> Enter data in a web form which POSTs to Parse. Parse fires off an SMS with the user’s input which is received by another Twilio phone number, and is then sent via e-mail to an address that is based on Sendgrid, which then sends the data back to Parse to be stored in a database. Be as creative as possible!",
-            "scoring": "20 points per unique API that is part of the successful chain (API, webhook, etc.)",
-            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 10 points for each link in the chain once it has been proven to work successfully.",
-            "resourcetitle": "Parse Docs",
-            "resourceurl": "https://www.parse.com/docs"
+            "challengetitle": "Substack Rube Goldburg Challenge",
+            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by substack (https://github.com/substack?tab=repositories) as possible.  ",
+            "scoring": "20 points per module used.",
+            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 20 points for each link in the chain once it has been proven to work successfully."
         },
         {
             "challengetitle": "Songs as Code",
@@ -174,20 +79,54 @@
             "resourceurl": "http://thehackerolympics.com/songsascode.html"
         },
         {
-            "challengetitle": "The Anti-Optimizer - Amazon Web Services ",
-            "rules": "Set up an AWS instance. On that instance, write a script in your language of choice that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
+            "challengetitle": "The Anti-Optimizer",
+            "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
             "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\n50 bonus points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays.",
-            "resourcetitle": "Amazon EC2",
-            "resourceurl": "http://aws.amazon.com/ec2/"
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays."
         },
         {
-            "challengetitle": "The GIFinator - Windows Azure ",
-            "rules": "We love lists and animated GIFs almost as much as Buzzfeed and tumblr.  Craft a web-based animated GIF generator on a Windows Azure Web Site, Cloud Service, or VM so that it can be shared with the world.",
-            "scoring": "100 points for creating an animated gif generator that stores on Azure",
-            "judges": "Generator a GIF using their app and verify that it uploads to Azure",
-            "resourcetitle": "Windows Azure",
-            "resourceurl": "http://www.windowsazure.com/en-us/"
+            "challengetitle": "Digital Rooster",
+            "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
+            "scoring": "100 points for successsfully building the app.<br />50 bonus points for opening up signup to users",
+            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires."
+        },
+        {
+            "challengetitle": "Scorched Earth",
+            "rules": "Write a browser extension for your favorite browser that pays homage to classic turn-based strategy game <a href=\"https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)\">Scorched Earth</a>. Keep it simple, just have one tank that uses the current websites content as a playing field. Once you're able to have a tank properly destroy page content, let a judge know.",
+            "scoring": "200 points for successfully building extension.",
+            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content."
+        },
+        {
+            "challengetitle": "Peter’s Game\n",
+            "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n",
+            "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in realtime via ajax.",
+            "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map."
+        },
+        {
+            "challengetitle": "UrbanSpotting.xxx",
+            "rules": "Find an available domain name for a believable startup name generated via a script that uses Urban Dictionary as it's data source. Pair up to create a 3-slide pitch that explains what this startup does - put it online so we can share it with everyone.",
+            "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
+            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics"
+        },
+        {
+            "challengetitle": "Use The Force",
+            "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone.",
+            "scoring": "100 points for getting your saber on.",
+            "judges": "Wave the phone. Check that it works."
+        },
+        {
+            "challengetitle": "Hacker Newz Filter",
+            "rules": "Write an extension for your favorite browser that hides article entries on news.ycombinator.com that contain certain keywords.",
+            "scoring": "100 points for successfuly demoing your extension. <br /> BONUS: 50 points for altering the headlines.",
+            "judges": "Verify that the extension works. Verify the source code."
+        },
+        {
+            "challengetitle": "What Does a Mom Tweet?",
+            "rules": "Write a Twilio app that allows your mom to tweet on her very own account, without ever visiting twitter.com. She should be able to tweet embarrasing things, by simply sending a text.",
+            "scoring": "100 points for successfully tweeting via SMS from your phone, under a new twitter account. <br /> BONUS: 50 points for using Twilio VOICE.",
+            "judges": "Verify that the app tweets after they send it a text. For bonus call the number and see if it tweets.",
+            "resourcetitle": "Twilio Docs",
+            "resourceurl": "http://twilio.com/docs"
         }
     ],
     "rules": [
@@ -196,7 +135,7 @@
         },
         {
             "rulenumber": 1,
-            "rule": "15 minutes before TwilioCon Hacker Olympics begins, we will publish a list of challenges. Other than the Required Challenges, which you must complete, you may choose to complete as many or as few challenges as you wish."
+            "rule": "15 minutes before The Hacker Olympics begins, we will publish a list of challenges. Other than the Required Challenges, which you must complete, you may choose to complete as many or as few challenges as you wish."
         },
         {
             "rulenumber": 2,
@@ -212,7 +151,7 @@
         },
         {
             "rulenumber": 5,
-            "rule": "<strong>Startup Charades, Stack Overflow</strong> and <strong>Bombs Away!</strong> are three challenges that are extra special. In order for every team to participate, these challenges are scheduled by Team Number. To see what time slot your Team is scheduled to compete in a Required Challenge, visit <a style=\"color:white; text-decoration:underline\" href=\"http://thehackerolympics.com/teamschedule/\">the schedule</a>.  "
+            "rule": "<strong>Startup Charades and Stack Overflow</strong> are two challenges that are extra special. In order for every team to participate, these challenges are scheduled by Team Number. To see what time slot your Team is scheduled to compete in a Required Challenge, visit <a style=\"color:white; text-decoration:underline\" href=\"http://thehackerolympics.com/teamschedule/\">the schedule</a>.  "
         },
         {
             "rulenumber": 6,
@@ -223,18 +162,14 @@
         },
         {
             "rulenumber": 1,
-            "rule": "You <strong>must</strong> form teams of 4-6 people (ideally teams will consist of 6 people). Once you have formed a team, choose a table. Your team name and number will be on the table. It is <strong>very important</strong> you memorize your Team Number, as the points your team earns will be tracked by your Team Number."
+            "rule": "You <strong>must</strong> form teams of 3-4 people (ideally teams will consist of 4 people). Once you have formed a team, choose a table. You will be given a team number and name when you check in. It is <strong>very important</strong> you memorize your Team Number, as the points your team earns will be tracked by your Team Number."
         },
         {
             "rulenumber": 2,
-            "rule": "Due to space we are capping the number of teams to 80. Some smaller teams might be forced to disband and join other teams, until we have less than 80 teams."
-        },
-        {
-            "rulenumber": 3,
             "rule": "Please don't scare the panda."
         },
         {
-            "rulenumber": 4,
+            "rulenumber": 3,
             "rule": "No Larping. Even if you have a lightsaber from last years Hacker Olympics. Larping kills."
         },
         {
