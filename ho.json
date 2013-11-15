@@ -53,7 +53,9 @@
             "challengetitle": "Escher’s Login",
             "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
             "scoring": "100 points – For completing the main challenge",
-            "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. If they have done the bonus challenge successfully, they get to keep their headset."
+            "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. If they have done the bonus challenge successfully, they get to keep their headset.",
+            "basescore": 100,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Hacker Relay Race",
@@ -61,7 +63,9 @@
             "scoring": "100 points for completion",
             "judges": "Have the team demo their app, confirm that all team members have branched and committed to the project and that theyr'e using the leaderboard json.",
             "resourcetitle": "Hacker Olympics Leaderboard JSON",
-            "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json"
+            "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json",
+            "basescore": 100,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Substack Rube Goldburg Challenge",
@@ -83,43 +87,56 @@
             "challengetitle": "The Anti-Optimizer",
             "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
             "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\nBONUS: 50 points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays."
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "Digital Rooster",
             "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
             "scoring": "100 points for successsfully building the app.<br />BONUS: 50 points for opening up signup to users",
-            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires."
+            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "Scorched Earth",
             "rules": "Write a browser extension for your favorite browser that pays homage to classic turn-based strategy game <a href=\"https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)\">Scorched Earth</a>. Keep it simple, just have one tank that uses the current websites content as a playing field. Once you're able to have a tank properly destroy page content, let a judge know.",
             "scoring": "200 points for successfully building extension.",
-            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content."
+            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content.",
+            "basescore": 200,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Peter’s Game\n",
             "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n",
             "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in real-time using <b>firebase</b> for real-time data storage.",
-            "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map."
+            "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map.",
+            "basescore": 200,
+            "bonusscore": 100
         },
         {
             "challengetitle": "UrbanSpotting.xxx",
             "rules": "Find an available domain name for a believable startup name generated via a script that uses Urban Dictionary as it's data source. Pair up to create a 3-slide pitch that explains what this startup does - put it online so we can share it with everyone.",
             "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
-            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics"
+            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics",
+            "basescore": 50,
+            "bonusscore": 100
         },
         {
             "challengetitle": "Use The Force",
             "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone.",
             "scoring": "100 points for getting your saber on.",
-            "judges": "Wave the phone. Check that it works."
+            "judges": "Wave the phone. Check that it works.",
+            "basescore": 100
         },
         {
             "challengetitle": "Hacker Newz Filter",
             "rules": "Write an extension for your favorite browser that hides article entries on news.ycombinator.com that contain certain keywords.",
             "scoring": "100 points for successfuly demoing your extension. <br /> BONUS: 50 points for altering the headlines.",
-            "judges": "Verify that the extension works. Verify the source code."
+            "judges": "Verify that the extension works. Verify the source code.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "What Does a Mom Tweet?",
@@ -127,7 +144,9 @@
             "scoring": "100 points for successfully tweeting via SMS from your phone, under a new twitter account. <br /> BONUS: 50 points for using Twilio VOICE.",
             "judges": "Verify that the app tweets after they send it a text. For bonus call the number and see if it tweets.",
             "resourcetitle": "Twilio Docs",
-            "resourceurl": "http://twilio.com/docs"
+            "resourceurl": "http://twilio.com/docs",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "SendGrid-a-licious",
@@ -135,7 +154,9 @@
             "scoring": "50 points for successfully sending an email using SendGrid. <br /> BONUS: 100 points for building the entire thing out of javascript.",
             "judges": "Verify that the script sends an email. Check the source code.",
             "resourcetitle": "Sendgrid Docs",
-            "resourceurl": "http://sendgrid.com/docs/"
+            "resourceurl": "http://sendgrid.com/docs/",
+            "basescore": 50,
+            "bonusscore": 100
         }
     ],
     "rules": [

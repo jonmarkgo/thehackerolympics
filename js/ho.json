@@ -40,7 +40,7 @@
         {
             "challengetitle": "Startup Charades - Scheduled",
             "rules": "<p>Teams must pair up with another team so that at each Station so there are 2 teams competing against one another.</p>\n \n<p>Charades is a game of pantomimes: you have to \"act out\" a phrase (in this case, a startup) without speaking, while the other members of your team try to guess what the phrase is. The objective is for your team to guess the phrase as quickly as possible.</p>\n \n<p>Each team can choose 3 players who each get 2 minutes to act out as many clues as possible. While TEAM A is acting out clues TEAM B should be keeping time.</p>\n \n<p><strong>Game Play:</strong>\nA player from TEAM A must draw a piece of paper from the Businessy Entrepreneurial Answer Receptacle (B.E.A.R) and act it out silently for the rest of his teammates. At the end of two minutes TEAM A should tally their correct answers and write it on the whiteboard.</p>\n \n<p>As soon as TEAM A completes their first round, TEAM B should choose a player to act out clues. This should of course repeat until either: 3 players from each team has acted out clues.</p>",
-            "scoring": "10 points per corect answer</br>\n\n25 point bonus to the winning team",
+            "scoring": "10 points per corect answer</br>\nBONUS: 25 points to the winning team",
             "judges": "Record the team numbers and how many corresponding correct answers they got for each charades station."
         },
         {
@@ -52,9 +52,10 @@
         {
             "challengetitle": "Escher’s Login",
             "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
-            "scoring": "100 points – For completing the main challenge</br>",
+            "scoring": "100 points – For completing the main challenge",
             "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. If they have done the bonus challenge successfully, they get to keep their headset.",
-            "resourcetitle": "Plantronics Developer Docs"
+            "basescore": 100,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Hacker Relay Race",
@@ -62,13 +63,17 @@
             "scoring": "100 points for completion",
             "judges": "Have the team demo their app, confirm that all team members have branched and committed to the project and that theyr'e using the leaderboard json.",
             "resourcetitle": "Hacker Olympics Leaderboard JSON",
-            "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json"
+            "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json",
+            "basescore": 100,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Substack Rube Goldburg Challenge",
-            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by substack (https://github.com/substack?tab=repositories) as possible.  ",
+            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by <a href=\"https://github.com/substack?tab=repositories\">substack</a> as possible.",
             "scoring": "20 points per module used.",
-            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 20 points for each link in the chain once it has been proven to work successfully."
+            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 20 points for each link in the chain once it has been proven to work successfully.",
+            "resourcetitle": "Substack Modules",
+            "resourceurl": "https://github.com/substack?tab=repositories"
         },
         {
             "challengetitle": "Songs as Code",
@@ -81,44 +86,57 @@
         {
             "challengetitle": "The Anti-Optimizer",
             "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
-            "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\n50 bonus points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays."
+            "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\nBONUS: 50 points for hitting between a +/- 500ms runtime of 42 seconds",
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "Digital Rooster",
             "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
-            "scoring": "100 points for successsfully building the app.<br />50 bonus points for opening up signup to users",
-            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires."
+            "scoring": "100 points for successsfully building the app.<br />BONUS: 50 points for opening up signup to users",
+            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "Scorched Earth",
             "rules": "Write a browser extension for your favorite browser that pays homage to classic turn-based strategy game <a href=\"https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)\">Scorched Earth</a>. Keep it simple, just have one tank that uses the current websites content as a playing field. Once you're able to have a tank properly destroy page content, let a judge know.",
             "scoring": "200 points for successfully building extension.",
-            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content."
+            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content.",
+            "basescore": 200,
+            "bonusscore": 0
         },
         {
             "challengetitle": "Peter’s Game\n",
             "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n",
-            "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in realtime via ajax.",
-            "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map."
+            "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in real-time using <b>firebase</b> for real-time data storage.",
+            "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map.",
+            "basescore": 200,
+            "bonusscore": 100
         },
         {
             "challengetitle": "UrbanSpotting.xxx",
             "rules": "Find an available domain name for a believable startup name generated via a script that uses Urban Dictionary as it's data source. Pair up to create a 3-slide pitch that explains what this startup does - put it online so we can share it with everyone.",
             "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
-            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics"
+            "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics",
+            "basescore": 50,
+            "bonusscore": 100
         },
         {
             "challengetitle": "Use The Force",
             "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone.",
             "scoring": "100 points for getting your saber on.",
-            "judges": "Wave the phone. Check that it works."
+            "judges": "Wave the phone. Check that it works.",
+            "basescore": 100
         },
         {
             "challengetitle": "Hacker Newz Filter",
             "rules": "Write an extension for your favorite browser that hides article entries on news.ycombinator.com that contain certain keywords.",
             "scoring": "100 points for successfuly demoing your extension. <br /> BONUS: 50 points for altering the headlines.",
-            "judges": "Verify that the extension works. Verify the source code."
+            "judges": "Verify that the extension works. Verify the source code.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "What Does a Mom Tweet?",
@@ -126,7 +144,19 @@
             "scoring": "100 points for successfully tweeting via SMS from your phone, under a new twitter account. <br /> BONUS: 50 points for using Twilio VOICE.",
             "judges": "Verify that the app tweets after they send it a text. For bonus call the number and see if it tweets.",
             "resourcetitle": "Twilio Docs",
-            "resourceurl": "http://twilio.com/docs"
+            "resourceurl": "http://twilio.com/docs",
+            "basescore": 100,
+            "bonusscore": 50
+        },
+        {
+            "challengetitle": "SendGrid-a-licious",
+            "rules": "Make a basic contact form that sends an email using SendGrid. Must use JavaScript for the sending. <b> Bonus points</b> if you build the entire thing in front-end JavaScript with only the necessary hardcoded  html, head, body, etc tags to render the page.",
+            "scoring": "50 points for successfully sending an email using SendGrid. <br /> BONUS: 100 points for building the entire thing out of javascript.",
+            "judges": "Verify that the script sends an email. Check the source code.",
+            "resourcetitle": "Sendgrid Docs",
+            "resourceurl": "http://sendgrid.com/docs/",
+            "basescore": 50,
+            "bonusscore": 100
         }
     ],
     "rules": [
