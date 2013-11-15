@@ -80,6 +80,14 @@ h3 {
   color: #EA5572;
 }
 
+.leaderboard a:nth-child(4) {
+  background-color: pink;
+}
+
+.leaderboard a:nth-child(4) .badge {
+  color: #EA5572;
+}
+
 /*.leaderboard a:nth-child(4), .leaderboard a:nth-child(5), .leaderboard a:nth-child(6) {
   background-color: #3279FF;
   color: #000;

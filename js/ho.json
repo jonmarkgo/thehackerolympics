@@ -50,10 +50,10 @@
             "judges": "Count the levels of cups to determine who is the winner. Record the team number and level of cups in the score sheet for each of the 6 teams competing in this round."
         },
         {
-            "challengetitle": "Escher's Login",
+            "challengetitle": "Escher’s Login",
             "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
             "scoring": "100 points – For completing the main challenge",
-            "judges": "Have the team demo their application to you, including the bonus challenge if they have chosen to complete it. If they have done the bonus challenge successfully, they get to keep their headset.",
+            "judges": "Have the team demo their application to you. Look for creative solutions here. ",
             "basescore": 100,
             "bonusscore": 0
         },
@@ -63,7 +63,7 @@
             "scoring": "100 points for completion",
             "judges": "Have the team demo their app, confirm that all team members have branched and committed to the project and that theyr'e using the leaderboard json.",
             "resourcetitle": "Hacker Olympics Leaderboard JSON",
-            "resourceurl": "http://judging.thehackerolympics.com/leaderboard.json",
+            "resourceurl": "http://judgingjs.herokuapp.com/leaderboard.json",
             "basescore": 100,
             "bonusscore": 0
         },
@@ -71,7 +71,7 @@
             "challengetitle": "Substack Rube Goldburg Challenge",
             "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by <a href=\"https://github.com/substack?tab=repositories\">substack</a> as possible.",
             "scoring": "20 points per module used.",
-            "judges": "Have the team demo their application to you, and show you how each part of the chain works. The team will get 20 points for each link in the chain once it has been proven to work successfully.",
+            "judges": "Have the team demo their application to you, and show you each Substack Module they are accessing. The team will get 20 points for each module in the chain once it has been proven to work successfully.",
             "resourcetitle": "Substack Modules",
             "resourceurl": "https://github.com/substack?tab=repositories"
         },
@@ -79,7 +79,7 @@
             "challengetitle": "Songs as Code",
             "rules": "Go to <a style=\"color:white; text-decoration:underline\"  href=\"http://thehackerolympics.com/songsascode.html\">http://thehackerolympics.com/songsascode.html</a> &ndash; here you will find a list of code snippets that each represent a song. Guess what song each snippet represents and write down your answers. Call over a judge to verify them and submit your score!",
             "scoring": "10 points per correct guess",
-            "judges": "Confirm each answer with the master list in the judging app, give the team 10 points * the number of correct answers they go. They should only submit their answers once for this challenge!\n\n<a href=\"https://docs.google.com/a/twilio.com/document/d/1LwI0ybELwNOu2zOXfC5_PhBVGUmuBOu9fKppl18J3AE/edit?usp=sharing\">RUBRIC</a>",
+            "judges": "Confirm each answer with the master list in the judging app, give the team 10 points * the number of correct answers they go. They should only submit their answers once for this challenge!\n\n<a href=\"https://gist.github.com/scottmotte/a1044371ed0e5b051658\">RUBRIC</a>",
             "resourcetitle": "Hacker Olympics Songs as Code List",
             "resourceurl": "http://thehackerolympics.com/songsascode.html"
         },
@@ -87,15 +87,15 @@
             "challengetitle": "The Anti-Optimizer",
             "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
             "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\nBONUS: 50 points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points. Also confirm that it is running on an AWS instance and that they did not use any time-based delays.",
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points.",
             "basescore": 100,
             "bonusscore": 50
         },
         {
             "challengetitle": "Digital Rooster",
-            "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
+            "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises in Vancouver. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
             "scoring": "100 points for successsfully building the app.<br />BONUS: 50 points for opening up signup to users",
-            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires.",
+            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires. Sunrise in Vancouver tomorrow is 7:35am.",
             "basescore": 100,
             "bonusscore": 50
         },
@@ -108,7 +108,7 @@
             "bonusscore": 0
         },
         {
-            "challengetitle": "Peter's Game",
+            "challengetitle": "Peter’s Game\n",
             "rules": "In Ender’s Game, Peter Wiggin was able to track phrases used on the Internet - find where they originated and how they traveled. Build your own version of this system, tracking where a tweet or comment originates and show how it travels on a map.\n",
             "scoring": "200 points for creating the dynamic map. <br/> BONUS: 100 points for making it update in real-time using <b>firebase</b> for real-time data storage.",
             "judges": "Verify that the map is being generated by code, not simply a hard-coded prototype. For Bonus tweet a key word and verify that the tweet appears on the map.",
@@ -117,7 +117,7 @@
         },
         {
             "challengetitle": "UrbanSpotting.xxx",
-            "rules": "Find an available domain name for a believable startup name generated via a script that uses Urban Dictionary as it's data source. Pair up to create a 3-slide pitch that explains what this startup does - put it online so we can share it with everyone.",
+            "rules": "Write a startup name generated via a script that uses Urban Dictionary as it's data source. Bonus points for publishing a 3-slide deck.",
             "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
             "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics",
             "basescore": 50,
