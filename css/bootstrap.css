@@ -5997,6 +5997,9 @@ h5 {
 .challenges h3 {
   color: black;
 }
+.challenges a {
+  color: blue;
+}
 .challenge-row {
   margin-left: 10.5%;
 }

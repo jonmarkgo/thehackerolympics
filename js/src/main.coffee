@@ -23,7 +23,7 @@ class MainRouter extends Backbone.Router
             @listenTo @data, 'sync', @buildLayout
             @data.fetch()
         if @firstLoad
-            delayTime = 100
+            delayTime = 400
             @firstLoad = false
         else
             delayTime = 0
