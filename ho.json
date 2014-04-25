@@ -1,22 +1,26 @@
 {
     "event_info": [
         {
-            "what": "<p>Hacker Olympics is a new, interactive spin on the basic hackathon. Hackers participate in a tournament, where diverse knowledge and skills help them to conquer a wide range of challenges. Accumulate points in a race to Hacker Olympics supremacy.</p><p>\nAt 10:00pm, it’s pencils down and laptops closed. The Top 3 Teams will be awarded prizes and named Hacker Olympic Medalists!</p>",
-            "how": "<p>\nHackerOlympics.js is a fast-paced event where teams compete for three hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, Songs as Code, UrbanSpotting.xxx and more.</p>"
+            "what": "<p>Hacker Olympics is a new, interactive spin on the basic hackathon. Hackers participate in a tournament, where diverse knowledge and skills help them to conquer a wide range of challenges. Accumulate points in a race to Hacker Olympics supremacy.</p><p>\nAt 7pm, it’s pencils down and laptops closed. The Top 3 Teams will be awarded prizes and named Hacker Olympic Medalists!</p>",
+            "how": "<p>\nHackerOlympics.js is a fast-paced event where teams compete for three hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, Anti-optimiser and more.</p>"
         }
     ],
     "schedule": [
         {
-            "scheduletimes": "6:00 - 7:00",
-            "scheduleevent": "Eat, form teams, challenges released"
+            "scheduletimes": "12 - 1",
+            "scheduleevent": "Eat, meet and greet"
         },
         {
-            "scheduletimes": "7:00 - 10:00",
-            "scheduleevent": "Hack, play, compete"
+            "scheduletimes": "1 - 1:30",
+            "scheduleevent": "Introductions"
         },
         {
-            "scheduletimes": "10:00-10:30",
-            "scheduleevent": "Hacker Olympics Awards Ceremony"
+            "scheduletimes": "1:30 - 6:30",
+            "scheduleevent": "Let the games begin!"
+        },
+        {
+            "scheduletimes": "6:30 - 7:30",
+            "scheduleevent": "Awards, prizes and glory"
         }
     ],
     "sponsors": [
@@ -26,9 +30,9 @@
             "sponsorurl": "http://twilio.com"
         },
         {
-            "sponsorname": "Firebase",
-            "sponsorimg": "firebase.png",
-            "sponsorurl": "http://firebase.com"
+            "sponsorname": "importio",
+            "sponsorimg": "importio.png",
+            "sponsorurl": "https://import.io"
         },
         {
             "sponsorname": "Sendgrid",
@@ -157,6 +161,64 @@
             "resourceurl": "http://sendgrid.com/docs/",
             "basescore": 50,
             "bonusscore": 100
+        },
+        {
+            "challengetitle": "Faily Mail",
+            "rules": "Write an app using Import.iO (thing) that scapes the Daily mail for a list of things that both cause and cure cancer. Bonus points for validating the cancer causing thing against a higher quality newspaper."
+        },
+        {
+            "challengetitle": "Republicanism in the UK",
+            "rules": "Write a web app showing a picture of Prince Philip that takes a drink every time one of the well known republicans mentioned on (wikipedia http://en.wikipedia.org/wiki/Republicanism_in_the_United_Kingdom) makes anti-royal statement. ",
+            "scoring": "Add your judgs as a republican to win points."
+        },
+        {
+            "challengetitle": "Boris swalloed a dictionary",
+            "rules": "No one has anhy idea what Boris Johnson says. Use an online dictionary to translate what he is saying into normal person english like what I talk."
+        },
+        {
+            "challengetitle": "I can haz the archers old boy.",
+            "rules": "Write a meme generator that uses the plots of the day's archers episode as it source."
+        },
+        {
+            "challengetitle": "Money Money Money",
+            "rules": "In a new wallet, somehow acquire any quantity (more than zero) of bitcoin."
+        },
+        {
+            "challengetitle": "Minecoin",
+            "rules": "Create a mod for Minecraft that mines a single bitcoing transaction everytime you mine a block in Minecraft."
+        },
+        {
+            "challengetitle": "Simpsons Blackboard",
+            "rules": "We love the Simpsons. But Bart has been writing on that blackboard for 25 years. Can you write down (on paper) every single thing he wrote on the blackboard?"
+        },
+        {
+            "challengetitle": "Rondomkey",
+            "rules": "Create a text form in a web page, which can emulate changing between a UK/French/German/Devorak keyboard on every 15th key stroke.",
+            "scoring": "Bonus 10 points for every keyboard type  supported."
+        },
+        {
+            "challengetitle": "!Coffee",
+            "rules": "Shoreditch is full of posh coffee shops. We've given you sachets of Nescafe, and convince one of the coffee shops to make you a cup. Video the whole thing. It must not be a chain store (starbucks etc)."
+        },
+        {
+            "challengetitle": "Browser Trumps",
+            "rules": "Create an app that allows two random people to load a web page, and uses their browser version number to work out who wins."
+        },
+        {
+            "challengetitle": "Cocoffee",
+            "rules": "We all love coffee, and we all love coworking. But which coworking space is close to the highest density of coffee shops. Create a heat map on Google Maps."
+        },
+        {
+            "challengetitle": "Hacker Olympics Kevin Bacon",
+            "rules": "Find out who in your team has the lowest 'bacon number' of mutual Twitter followers to as many of the judges as possible."
+        },
+        {
+            "challengetitle": "Peak Beard\n",
+            "rules": "Use any social APIs you choose to track mentions of the word 'beard' and find out once and for all if we have reached peaked beard. And if we have - WHEN!?"
+        },
+        {
+            "challengetitle": "Silicon Cleanabout",
+            "rules": "Write a browser extension that removes the phrases 'tech city' and 'silicon roundabout' from every single webpage I visit. Bonus points for removing stock photography of old street randabout and replacing it with a picture of a donut."
         }
     ],
     "rules": [
