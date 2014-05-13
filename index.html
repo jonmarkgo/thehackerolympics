@@ -19,7 +19,7 @@
     <script id='home-page' type='text/template'>
       <div class='row'>
         <div class='col-xs-12'>
-          <div class='hero-img'></div>
+          <h1 class='hero-txt'>Hacker Olympics</h1>
         </div>
         <div class='col-md-6'>
           <div class='format-container'></div>
@@ -70,11 +70,15 @@
               <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
             </li>
           </ul>
-          <p class='navbar-text pull-right'>
-            CascadiaJS EDITION
-          </p>
         </div>
       </nav>
+      <div class="event-card <%= event_info[0].city_slug %>">
+      <div class="event-info">
+      <span><%= event_info[0].title %></span>
+      <span><%= event_info[0].when %></span>
+      <span><%= event_info[0].where %></span>
+      </div>
+      </div>
     </script>
     <script id='schedule-item' type='text/template'>
       <div class='row well'>
