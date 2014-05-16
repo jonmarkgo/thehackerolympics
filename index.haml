@@ -125,7 +125,7 @@
                     .sponsors
                         %img.img-thumbnail{:src => 'img/sponsors/twilio.svg', :width => 160}
                         %img.img-thumbnail{:src => 'img/sponsors/send-grid.png', :width => 160}
-                        %img.img-thumbnail{:src => 'img/sponsors/firebase.png', :width => 160}
+                        %img.img-thumbnail{:src => 'img/sponsors/importio.png', :width => 160}
         %script{:id => "challenges-page", :type => "text/template"}
             .rules-container
             .row
@@ -152,7 +152,7 @@
                         %li
                             <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
                     %p.navbar-text.pull-right
-                        CascadiaJS EDITION
+                        London Edition
         %script{:id => "schedule-item", :type => "text/template"}
             .row.well
                 .col-xs-3
@@ -175,14 +175,14 @@
                         .panel-body
                             <%= rules %>
                         .panel-footer
-                            %b Scoring: 
+                            %b Scoring:
                             %span <%= scoring %>
                             <% if (typeof(resourceurl) != "undefined") { %>
                             %hr
-                            %b Resource: 
+                            %b Resource:
                             <a href= "<%= resourceurl %>" target="_blank"> <%= resourcetitle %> </a>
                             <% } %>
-                            
+
         %script{:id => "rules-item", :type => "text/template"}
             .row
                 .col-xs-1
