@@ -59,6 +59,7 @@ class MainLayout extends Backbone.Marionette.Layout
     initialize: (options) ->
         {@router, @data} = options
         @navView = new NavItems
+            model: @data
             router: @router
 
     onRender: (slug) ->

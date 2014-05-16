@@ -1,17 +1,21 @@
 {
     "event_info": [
         {
+            "title": "London Edition",
+            "when": "23 May, 2014 ace",
+            "where": "Big Fancy Hall",
+            "city_slug": "london",
             "what": "<p>Hacker Olympics is a new, interactive spin on the basic hackathon. Hackers participate in a tournament, where diverse knowledge and skills help them to conquer a wide range of challenges. Accumulate points in a race to Hacker Olympics supremacy.</p><p>\nAt 7pm, it’s pencils down and laptops closed. The Top 3 Teams will be awarded prizes and named Hacker Olympic Medalists!</p>",
             "how": "<p>\nHackerOlympics.js is a fast-paced event where teams compete for three hours against each other to finish in the top 3 teams. Teams complete challenges to earn points, each of which make hackers think quickly, creatively and often outside their comfort zone.</p><p>Use skills you didn’t know you had to reign victorious over the likes of Startup Charades, Anti-optimiser and more.</p>"
         }
     ],
     "schedule": [
         {
-            "scheduletimes": "12 - 1",
+            "scheduletimes": "12:00 PM - 1:00",
             "scheduleevent": "Eat, meet and greet"
         },
         {
-            "scheduletimes": "1 - 1:30",
+            "scheduletimes": "1:00 - 1:30",
             "scheduleevent": "Introductions"
         },
         {
@@ -19,7 +23,7 @@
             "scheduleevent": "Let the games begin!"
         },
         {
-            "scheduletimes": "6:30 - 7:30",
+            "scheduletimes": "6:30 - 7:30 PM",
             "scheduleevent": "Awards, prizes and glory"
         }
     ],

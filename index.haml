@@ -115,7 +115,7 @@
         %script{:id => "home-page", :type => "text/template"}
             .row
                 .col-xs-12
-                    .hero-img
+                    %h1.hero-txt Hacker Olympics
                 .col-md-6
                     .format-container
                 .col-md-6
@@ -151,8 +151,13 @@
                             <a href="#" data-slug="rules">Challenges </a>
                         %li
                             <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
-                    %p.navbar-text.pull-right
-                        CascadiaJS EDITION
+            <div class="event-card <%= event_info[0].city_slug %>">
+            <div class="event-info">
+            %span <%= event_info[0].title %>
+            %span <%= event_info[0].when %>
+            %span <%= event_info[0].where %>
+            </div>
+            </div>
         %script{:id => "schedule-item", :type => "text/template"}
             .row.well
                 .col-xs-3
