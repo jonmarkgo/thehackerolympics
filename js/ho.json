@@ -253,6 +253,10 @@
         },
         {
             "rulenumber": 6,
+            "rule": "<strong>Stack Overflow</strong> is our All Team Challenge. When you are ready to build the bossest tower, rally your entire team together to head over to the conference room to take your turn at this epic contest.  You'll need every hand available to help."
+        },
+        {
+            "rulenumber": 7,
             "rule": "If you finish all available challenges, you are a baller! Check the rules and attempt to get the bonus points for every challenge that has bonus points."
         },
         {
