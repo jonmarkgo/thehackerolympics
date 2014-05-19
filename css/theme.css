@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -407,44 +406,4 @@ h5 {
 h5 {
   text-transform: uppercase;
   font-size: 32px;
-}
-h1.hero-txt {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 150px;
-  text-transform: uppercase;
-  text-align: center;
-  display: block;
-  padding: 30px 0px 120px;
-  color: white;
-}
-.event-card {
-  position: absolute;
-  top: 0px;
-  background-image:url("../img/cities/newyork.jpg");
-  background-position: center center;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 400px;
-  z-index: -1;
-}
-.event-card .event-info {
-  position: absolute;
-  bottom: 0px;
-  background: rgba(255,255,255,0.2);
-  display: block;
-  width: 100%;
-  padding: 20px;
-  color: white;
-  text-align: right;
-}
-.event-info span {
-  margin:0px 5px;
-}
-.event-info span::after {
-  content:" | ";
-
-}
-.event-card.london {
-  background-image:url("../img/cities/london.jpg");
 }

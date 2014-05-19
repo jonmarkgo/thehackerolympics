@@ -66,10 +66,12 @@ class MainLayout extends Backbone.Marionette.Layout
         @nav.show @navView
 
     showHome: ->
+        @$el.addClass 'home'
         @content.show new HomePage
             data: @data
 
     showChallenges: ->
+        @$el.removeClass 'home'
         @content.show new ChallengesPage
             data: @data
 
@@ -184,7 +186,7 @@ class EventInfoView extends Backbone.Marionette.ItemView
 class NavItems extends Backbone.Marionette.ItemView
     template: '#navbar'
     events:
-        'click a': 'goToPage'
+        'click .nav-link': 'goToPage'
 
     initialize: (options) ->
         {@router} = options

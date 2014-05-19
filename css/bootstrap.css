@@ -1,4 +1,4 @@
-@import url("theme.css");
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -6011,6 +6011,55 @@ h5 {
   background: url(../img/header.png) no-repeat center top;
   margin: 40px auto 0px;
 }
+h1.hero-txt {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  padding: 30px 0px 120px;
+  color: white;
+}
+.event-card {
+  display: none;
+  top: 0px;
+  background-image: url("../img/cities/newyork.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+.event-card .event-info {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: right;
+}
+.event-card .event-info span {
+  margin: 0px 5px;
+}
+.event-card .event-info span:after {
+  content: " | ";
+}
+.register-btn {
+  position: absolute;
+  top: 350px;
+  left: 34%;
+  width: 400px;
+  z-index: 1090;
+}
+.home .event-card {
+  display: block;
+}
+.event-card.london {
+  background-image: url("../img/cities/london.jpg");
+}
 @-ms-viewport {
   width: device-width;
 }
@@ -6431,5 +6480,8 @@ td.visible-print {
   .navbar-brand {
     position: absolute;
     top: 0px;
+  }
+  h1.hero-txt {
+    font-size: 70px;
   }
 }

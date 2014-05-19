@@ -1,7 +1,7 @@
 //
 // Buttons
 // --------------------------------------------------
-
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 // Common styles
 .btn-default,
 .btn-primary,
@@ -285,6 +285,7 @@ h5 {
     color:blue;
   }
 }
+
 .challenge-row {
   margin-left:10.5%;
 }
@@ -294,4 +295,54 @@ h5 {
   height:240px;
   background: url(../img/header.png) no-repeat center top;
   margin: 40px auto 0px;
+}
+h1.hero-txt {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  padding: 30px 0px 120px;
+  color: white;
+}
+.event-card {
+  display:none;
+  position: absolute;
+  top: 0px;
+  background-image:url("../img/cities/newyork.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  .event-info {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(255,255,255,0.2);
+    display: block;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: right;
+    span {
+      margin:0px 5px;
+      &:after {
+        content:" | ";
+      }
+    }
+  }
+}
+.register-btn {
+  position: absolute;
+  top: 350px;
+  left:34%;
+  width:400px;
+  z-index:1090;
+}
+.home .event-card {
+  display:block;
+}
+.event-card.london {
+  background-image:url("../img/cities/london.jpg");
 }

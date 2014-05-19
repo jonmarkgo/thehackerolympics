@@ -134,12 +134,14 @@
     };
 
     MainLayout.prototype.showHome = function() {
+      this.$el.addClass('home');
       return this.content.show(new HomePage({
         data: this.data
       }));
     };
 
     MainLayout.prototype.showChallenges = function() {
+      this.$el.removeClass('home');
       return this.content.show(new ChallengesPage({
         data: this.data
       }));
@@ -431,7 +433,7 @@
     NavItems.prototype.template = '#navbar';
 
     NavItems.prototype.events = {
-      'click a': 'goToPage'
+      'click .nav-link': 'goToPage'
     };
 
     NavItems.prototype.initialize = function(options) {

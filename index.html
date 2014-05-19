@@ -61,15 +61,18 @@
         <div class='collapse navbar-collapse navbar-ex1-collapse'>
           <ul class='nav navbar-nav'>
             <li class='active'>
-              <a href="#" data-slug="home">Home </a>
+              <a class="nav-link" href="#" data-slug="home">Home </a>
             </li>
             <li>
-              <a href="#" data-slug="rules">Challenges </a>
+              <a class="nav-link" href="#" data-slug="rules">Challenges </a>
             </li>
             <li>
-              <a href="leaderboard" data-slug="leaderboard">Leaderboard </a>
+              <a class="nav-link" href="leaderboard" data-slug="leaderboard">Leaderboard </a>
             </li>
           </ul>
+          <p class='navbar-text pull-right'>
+            <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="btn btn-warning">Register Now</a>
+          </p>
         </div>
       </nav>
       <div class="event-card <%= event_info[0].city_slug %>">
@@ -79,6 +82,7 @@
       <span><%= event_info[0].where %></span>
       </div>
       </div>
+      <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="register-btn btn btn-lg btn-warning">Register Now</a>
     </script>
     <script id='schedule-item' type='text/template'>
       <div class='row well'>
