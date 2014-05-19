@@ -20,10 +20,9 @@
       <div class='row'>
         <div class='col-xs-12'>
           <h1 class='hero-txt'>Hacker Olympics</h1>
+          <div class='event-container'></div>
         </div>
-        <div class='col-md-6'>
-          <div class='format-container'></div>
-        </div>
+        <div class='format-container'></div>
         <div class='col-md-6'>
           <h3>Schedule</h3>
           <div class='schedule-container'></div>
@@ -82,7 +81,6 @@
       <span><%= event_info[0].where %></span>
       </div>
       </div>
-      <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="register-btn btn btn-lg btn-warning">Register Now</a>
     </script>
     <script id='schedule-item' type='text/template'>
       <div class='row well'>
@@ -95,10 +93,23 @@
       </div>
     </script>
     <script id='format-info' type='text/template'>
-      <h3>Welcome</h3>
-      <div class='well'><%= what %></div>
-      <h3>Format</h3>
-      <div class='well'><%= how %></div>
+      <div class='col-md-6'>
+        <h3>Welcome</h3>
+        <div class='well'>
+          <%= what %>
+          <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="register-btn btn btn-lg btn-warning">Register Now</a>
+        </div>
+        <h3>Format</h3>
+        <div class='well'><%= how %></div>
+      </div>
+      <div class='col-md-6'>
+        <h3>Where</h3>
+        <div class='well'>
+          <b><%= where %></b>
+          <p><%= address %></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.2156162026286!2d-0.08086599999999998!3d51.527605000000015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cbadd0ebb53%3A0x20694e9b38ebbe9!2sShoreditch+Village+Hall!5e0!3m2!1sen!2sus!4v1400525094421" width="400" height="300" frameborder="0" style="border:0"></iframe>
+        </div>
+      </div>
     </script>
     <script id='sub-view' type='text/template'>
       <div class='content'></div>

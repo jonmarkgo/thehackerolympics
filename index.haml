@@ -116,8 +116,8 @@
             .row
                 .col-xs-12
                     %h1.hero-txt Hacker Olympics
-                .col-md-6
-                    .format-container
+                    .event-container
+                .format-container
                 .col-md-6
                     %h3 Schedule
                     .schedule-container
@@ -160,7 +160,6 @@
             %span <%= event_info[0].where %>
             </div>
             </div>
-            <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="register-btn btn btn-lg btn-warning">Register Now</a>
         %script{:id => "schedule-item", :type => "text/template"}
             .row.well
                 .col-xs-3
@@ -168,10 +167,21 @@
                 .col-xs-9
                     %span <%= scheduleevent %>
         %script{:id => "format-info", :type => "text/template"}
-            %h3 Welcome
-            .well <%= what %>
-            %h3 Format
-            .well <%= how %>
+            .col-md-6
+                %h3 Welcome
+                .well 
+                    <%= what %> 
+                    <a href="https://www.eventbrite.co.uk/e/hacker-olympics-london-tickets-960465779" class="register-btn btn btn-lg btn-warning">Register Now</a>
+
+                %h3 Format
+                .well <%= how %>
+            .col-md-6
+                %h3 Where
+                .well
+                    %b <%= where %>
+                    %p <%= address %>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.2156162026286!2d-0.08086599999999998!3d51.527605000000015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cbadd0ebb53%3A0x20694e9b38ebbe9!2sShoreditch+Village+Hall!5e0!3m2!1sen!2sus!4v1400525094421" width="400" height="300" frameborder="0" style="border:0"></iframe>
+
         %script{:id => "sub-view", :type => "text/template"}
             .content
         %script{:id => "challenge-item", :type => "text/template"}

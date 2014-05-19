@@ -6013,7 +6013,7 @@ h5 {
 }
 h1.hero-txt {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 150px;
+  font-size: 130px;
   text-transform: uppercase;
   text-align: center;
   display: block;
@@ -6046,13 +6046,6 @@ h1.hero-txt {
 }
 .event-card .event-info span:after {
   content: " | ";
-}
-.register-btn {
-  position: absolute;
-  top: 350px;
-  left: 34%;
-  width: 400px;
-  z-index: 1090;
 }
 .home .event-card {
   display: block;
@@ -6469,6 +6462,11 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  h1.hero-txt {
+    font-size: 100px;
   }
 }
 @media (max-width: 768px) {
