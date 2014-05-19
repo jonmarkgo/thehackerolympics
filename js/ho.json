@@ -233,41 +233,37 @@
         },
         {
             "rulenumber": 1,
-            "rule": "15 minutes before The Hacker Olympics begins, we will publish a list of challenges. Other than the Required Challenges, which you must complete, you may choose to complete as many or as few challenges as you wish."
+            "rule": "15 minutes before The Hacker Olympics begins, we will publish a list of challenges." 
         },
         {
             "rulenumber": 2,
-            "rule": "For each challenge that your team completes the team will receive a fixed or variable amount of points depending on the points allotted for completion of the challenge."
+            "rule": "For each challenge that your team completes the team will receive points.  Team with the most points at the end wins."
         },
         {
             "rulenumber": 3,
-            "rule": "Different hackers on the same team may be completing <strong>different</strong> challenges. So be sure to delegate well as a team!"
+            "rule": "Different hackers on the same team may be completing <strong>different</strong> challenges. Working as a team equals most win."
         },
         {
             "rulenumber": 4,
-            "rule": "When you believe your team has completed a challenge, simply wave the light stick at your table. This will alert a judge to come check your work. If they deem the challenge completed your team will receive points. "
+            "rule": "When you believe your team has completed a challenge, simply wave the glow baton at your table. This will alert a judge to come check your work. Show off the hack to the judge to get your points."
         },
         {
             "rulenumber": 5,
-            "rule": "<strong>Startup Charades and Stack Overflow</strong> are two challenges that are extra special. In order for every team to participate, these challenges are scheduled by Team Number. To see what time slot your Team is scheduled to compete in a Required Challenge, visit <a style=\"color:white; text-decoration:underline\" href=\"http://thehackerolympics.com/teamschedule/\">the schedule</a>.  "
+            "rule": "<strong>Startup Charades</strong> is our Throwdown Challenge. Pick a team to faceoff against in Startup Charades and head up to the stage to take them on in a head to head battle.  You'll receive 10 points for every correct answer and a bonus 50 if your team wins.  "
         },
         {
             "rulenumber": 6,
-            "rule": "If you finish all available challenges, check the rules and attempt to get the bonus points for every challenge that has bonus points."
+            "rule": "If you finish all available challenges, you are a baller! Check the rules and attempt to get the bonus points for every challenge that has bonus points."
         },
         {
             "rule": "<strong>The Rules:</strong>"
         },
         {
             "rulenumber": 1,
-            "rule": "You <strong>must</strong> form teams of 3-4 people (ideally teams will consist of 4 people). Once you have formed a team, choose a table. You will be given a team number and name when you check in. It is <strong>very important</strong> you memorize your Team Number, as the points your team earns will be tracked by your Team Number."
+            "rule": "Teams are a minimum of 4 people, a maximum of 6.  Ideal size is 5 and even more ideal constiution is people who don't know each other - teams of strangers routinely win the Hacker Olympics."
         },
         {
             "rulenumber": 2,
-            "rule": "Please don't scare the panda."
-        },
-        {
-            "rulenumber": 3,
             "rule": "No Larping. Even if you have a lightsaber from last years Hacker Olympics. Larping kills."
         },
         {
@@ -275,7 +271,7 @@
         },
         {
             "rulenumber": 1,
-            "rule": "When a team (or hacker from a specific team) completes a challenge, Points will be added to your Team Number"
+            "rule": "When a team (or hacker from a specific team) completes a challenge, points will be added by the judge."
         },
         {
             "rulenumber": 2,
