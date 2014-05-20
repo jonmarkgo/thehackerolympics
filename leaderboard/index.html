@@ -17,9 +17,10 @@
         $.get('http://hacker-olympics-london.herokuapp.com/leaderboard.json', function(data) {
           for (team in data) {
             num = team;
+            team_id = data[team]['id']
             name = data[team]['name'];
             pts = data[team]['points'];
-            $(".leaderboardSource").append('<a data-id="team-'+num+'" href="http://hacker-olympics-london.herokuapp.com/team/' + num + '" class="list-group-item"><span class="badge">' + pts +'</span>Team '+name+' (#<span class="teamnum">' + num + '</span>)</a>');
+            $(".leaderboardSource").append('<a data-id="team-'+num+'" href="http://hacker-olympics-london.herokuapp.com/team/' + team_id + '" class="list-group-item"><span class="badge">' + pts +'</span>Team '+name+' (#<span class="teamnum">' + num + '</span>)</a>');
           }
           $('.leaderboardSource > a').tsort('.badge',{order:'desc'}, '.teamnum', {order:'asc'});
           $('.leaderboard').quicksand( $('.leaderboardSource > a'), {
