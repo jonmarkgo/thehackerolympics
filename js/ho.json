@@ -49,73 +49,67 @@
     "challenges": [
         {
             "challengetitle": "Startup Charades - Scheduled",
-            "rules": "<p>Teams must pair up with another team so that at each Station so there are 2 teams competing against one another.</p>\n \n<p>Charades is a game of pantomimes: you have to \"act out\" a phrase (in this case, a startup) without speaking, while the other members of your team try to guess what the phrase is. The objective is for your team to guess the phrase as quickly as possible.</p>\n \n<p>Each team can choose 3 players who each get 2 minutes to act out as many clues as possible. While TEAM A is acting out clues TEAM B should be keeping time.</p>\n \n<p><strong>Game Play:</strong>\nA player from TEAM A must draw a piece of paper from the Businessy Entrepreneurial Answer Receptacle (B.E.A.R) and act it out silently for the rest of his teammates. At the end of two minutes TEAM A should tally their correct answers and write it on the whiteboard.</p>\n \n<p>As soon as TEAM A completes their first round, TEAM B should choose a player to act out clues. This should of course repeat until either: 3 players from each team has acted out clues.</p>",
-            "scoring": "10 points per corect answer</br>\nBONUS: 25 points to the winning team",
-            "judges": "Record the team numbers and how many corresponding correct answers they got for each charades station."
+            "rules": "<p>This is our Throwdown Challenge for the day - find a team you want to take on head to head and head up to the stage for Startup Charades.</p>\n \n<p>Charades is a game of pantomimes: you have to \"act out\" a phrase (in this case, a startup) without speaking, while the other members of your team try to guess what the phrase is. The objective is for your team to guess the phrase as quickly as possible.</p>\n \n<p>Each team can choose 3 players who each get 2 minutes to act out as many clues as possible. While TEAM A is acting out clues TEAM B should be keeping time.</p>\n \n<p><strong>Game Play:</strong>\nA player from TEAM A must draw a piece of paper from the Businessy Entrepreneurial Answer Receptacle (B.E.A.R) and act it out silently for the rest of his teammates. At the end of two minutes TEAM A should tally their correct answers and write it on the whiteboard.</p>\n \n<p>As soon as TEAM A completes their first round, TEAM B should choose a player to act out clues. This should of course repeat until either: 3 players from each team has acted out clues.</p>",
+            "scoring": "<p>10 points per corect answer.</p>\n<p>The winning team will get 25 additional bonus points.</p>",
+            "judges": "<p>Record the number of correct answers from each team.</p><p>Indicate which of the two teams is the winner.</p>",
+            "bonusscore": 25,
+            "scoreunit": "Correct Answers",
+            "scoreunitmultiplier": 10
         },
         {
-            "challengetitle": "Stack Overflow - Scheduled",
-            "rules": "<p>6 teams compete at once. Each team gets 100 Cups. The objective is to stack cups as high as possible using only each other and the cups to create a structure that will stand tallest. No object other than cups can be part of the structure. No free-standing objects may be used to raise a hacker’s height to place cups higher up. People are a different story…</p>\n \n<p>At the end of 10 minutes the team with the highest stack of cups will be named winner. The 2nd and 3rd highest stacks will also win points.</p>\n\n<p><strong>Special Case:</strong> If two (or more) teams are tied at the end of the 10 minutes a rapid-fire tie-breaking row must take place. The tied teams need to create a stack of single cups one on top of the previous, and the team with the highest single stack of cups is named winner. This team should receive a BONUS level to their official Stack Overflow score. So if two teams are tied with a level-count of 25 levels, the team who wins the tie-breaker will receive a bonus level to their score, making their final level-count 26.</p>",
-            "scoring": "1st place: 100 pts</br>\n2nd Place: 70 pts</br>\n3rd Place: 45 pts</br>",
-            "judges": "Count the levels of cups to determine who is the winner. Record the team number and level of cups in the score sheet for each of the 6 teams competing in this round."
+            "challengetitle": "Stack Overflow",
+            "rules": "<p>You will be given 100 Cups. You must stack them as high as possible to create a tower. You cannot put one cup 'inside' another, or use chairs/tables etc. to help build the tower. You may however, use your team mates... You will have 10 minutes to build as high as you can. Your tower must only be made of cups, no tape, gum or magic.</p><p>Interested in scoring some bonus points? Shoot for the ceiling! Report with your entire team when you’re ready to try your hand to the conference room.</p>",
+            "scoring": "<P>10 Points for every layer of cups. Stacking cups 'inside' each other does not count as a layer. 50 Bonus points for touching the ceiling with the cup, or being unable to fit another cup on top due to the height of the ceiling.</P>",
+            "judges": "<p>Count how many cups high the tower is, award that score.</p><p>If it is not possible to add more cups due to the height of the ceiling, award bonus points. Hanging obstructions do not count.</p>",
+            "bonusscore": 50,
+            "scoreunit": "Layers of Cups",
+            "scoreunitmultiplier": 10
         },
         {
-            "challengetitle": "Escher’s Login",
-            "rules": "<p>Build a user authentication system that utilizes no form fields or input fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
-            "scoring": "100 points – For completing the main challenge",
-            "judges": "Have the team demo their application to you. Look for creative solutions here. ",
+            "challengetitle": "Escher's Login",
+            "rules": "<p>Build a web based user authentication system that utilizes no &lt;form&gt; or &lt;input&gt; fields. Your system must not accept a username or password from the user. Be creative and come up with a unique authentication system using alternative verification methods (ex. Voice verification, key-press detection, bluetooth , etc.)</p>",
+            "scoring": "<p>100 points for a working login system</p>",
+            "judges": "Have the person demo their code. Check the HTML and ask them to explain how it works.",
             "basescore": 100,
             "bonusscore": 0
         },
         {
             "challengetitle": "Hacker Relay Race",
-            "rules": "Create a new git repo. Give each of your team members access to it. One of your team members should create the first portion of an application that utilizes the Hacker Olympics leaderboard.json API. Each of your team members must then create their own branch of the application and merge their code via a Pull Request.",
-            "scoring": "100 points for completion",
+            "rules": "<p>Create a new git repo. Give each of your team members access to it. One of your team members should create the first portion of an application that utilizes the Hacker Olympics <a href=\"http://hacker-olympics-london.herokuapp.com/leaderboard.json\">API (http://hacker-olympics-london.herokuapp.com/leaderboard.json)</a>. Each of your team members must then create their own branch of the application and merge their code via a Pull Request.</p>",
+            "scoring": "<p>100 points for completion</p>",
             "judges": "Have the team demo their app, confirm that all team members have branched and committed to the project and that theyr'e using the leaderboard json.",
             "resourcetitle": "Hacker Olympics Leaderboard JSON",
-            "resourceurl": "http://judgingjs.herokuapp.com/leaderboard.json",
+            "resourceurl": "http://hacker-olympics-london.herokuapp.com/leaderboard.json",
             "basescore": 100,
             "bonusscore": 0
         },
         {
             "challengetitle": "Substack Rube Goldburg Challenge",
-            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by <a href=\"https://github.com/substack?tab=repositories\">substack</a> as possible.",
+            "rules": "Pass this string of data {'hackerolympics': 'dope', 'chipotle': {'price': 'nope', 'originality':'nope'}} through as many node.js modules written by <a href=\"https://github.com/substack?tab=repositories\">substack (https://github.com/substack)</a> as possible.",
             "scoring": "20 points per module used.",
             "judges": "Have the team demo their application to you, and show you each Substack Module they are accessing. The team will get 20 points for each module in the chain once it has been proven to work successfully.",
             "resourcetitle": "Substack Modules",
-            "resourceurl": "https://github.com/substack?tab=repositories"
+            "resourceurl": "https://github.com/substack?tab=repositories",
+            "scoreunit": "Modules Used",
+            "scoreunitmultiplier": 20
         },
         {
             "challengetitle": "Songs as Code",
             "rules": "Go to <a href=\"http://thehackerolympics.com/songsascode.html\">http://thehackerolympics.com/songsascode.html</a> &ndash; here you will find a list of code snippets that each represent a song. Guess what song each snippet represents and write down your answers. Call over a judge to verify them and submit your score!",
             "scoring": "10 points per correct guess",
-            "judges": "Confirm each answer with the master list in the judging app, give the team 10 points * the number of correct answers they go. They should only submit their answers once for this challenge!\n\n<a href=\"https://gist.github.com/scottmotte/a1044371ed0e5b051658\">RUBRIC</a>",
+            "judges": "They should only submit their answers once for this challenge! Check they do not already have a score. Enter the number of correct answers they get, by ticking them off against this list:\n\n<a href=\"https://gist.github.com/xmjw/7fe6aec376ac88de360f\">https://gist.github.com/xmjw/7fe6aec376ac88de360f</a>\n\n<p>gistfile1.js - Real Slim Shady - Eminem</p>\n<p>gistfile10.js - Don’t Stop the Party - Pitbull</p>\n<p>gistfile11.js - What Does the Fox Say - Ylvis</p>\n<p>gistfile12.js - Mambo #5 - Lou Bega</p>\n<p>gistfile13.js - Washington - Cox and Combes</p>\n<p>gistfile14.js - Beatles - When I’m 64</p>\n<p>gistfile15.js - Queen - Bohemian Rhapsody</p>\n<p>gistfile16.js - I walk the line - Johnny Cash</p>\n<p>gistfile17.js - Boy Named Sue - Johnny Cash</p>\n<p>gistfile18.js - 500 Miles - the Proclaimers</p>\n<p>gistfile19.js - It was a good day - Ice Cube</p>\n<p>gistfile2.js - Blurred Lines - Robin Thicke</p>\n<p>gistfile20.js - Black or White - Michael Jackson</p>\n<p>gistfile21.js - (I Cant Get No) Satisfaction - Rolling Stones</p>\n<p>gistfile22.js - Get Lucky - Daft Punk</p> \n<p>gistfile23.js - Fake Plastic Trees - Radiohead</p>\n<p>gistfile24.js - Macklemore - Same Love</p>\n<p>gistfile25.js - Stuck in the middle with you - Stealers Wheel</p>\n<p>gistfile26.js - Girl You Know It's True - Milli Vanilli</p>\n<p>gistfile27.js - Work it - Missy Elliot</p>\n<p>gistfile3.js - Just the Two of Us - Bill Withers</p>\n<p>gistfile4.js- Higher - Creed</p>\n<p>gistfile5.js - Part of your world - Little Mermaid</p>\n<p>gistfile6.js - Bird is the word - Surfin' Bird</p>\n<p>gistfile7.js - Party, Party, Party - Andrew W.K.</p>\n<p>gistfile8.js - Cannonball by the Breeders</p>\n<p>gistfile9.js - Wrecking Ball - Miley Cyrus</p>\n",
             "resourcetitle": "Hacker Olympics Songs as Code List",
-            "resourceurl": "http://thehackerolympics.com/songsascode.html"
+            "resourceurl": "http://thehackerolympics.com/songsascode.html",
+            "scoreunit": "Total Songs Correct",
+            "scoreunitmultiplier": 10
         },
         {
             "challengetitle": "The Anti-Optimizer",
-            "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
+            "rules": "Write a script that has a runtime of as close to 42 seconds as possible as determined by the `time` command. You may not use any time-based delays, counters, network requests, or waits to achieve this runtime. You may achieve the runtime through inefficient code, unwise server configurations, or any other creative means.",
             "scoring": "100 points for writing a script that is within a +/- 5 second runtime of 42 seconds\n<br>\nBONUS: 50 points for hitting between a +/- 500ms runtime of 42 seconds",
-            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 42 exactly they get 150 points, if it is between 37 and 47 seconds they get 100 points.",
+            "judges": "Have them run their script with the `time` command (ex. time ruby app.rb), if it is 41.5 to 42.5 seconds they get 150 points, if it is between 37 and 47 seconds they get 100 points.",
             "basescore": 100,
             "bonusscore": 50
-        },
-        {
-            "challengetitle": "Digital Rooster",
-            "rules": "Do you miss the days when your neighbordhood rooster would wake you up at sunrise? Using Node.js, return to those times by building an alarm clock app that wakes you up when the sun rises in Vancouver. You can use any method for waking up that you desire. For judging, program the ability to trigger alarm on-demand and show the schedule sunrise time.",
-            "scoring": "100 points for successsfully building the app.<br />BONUS: 50 points for opening up signup to users",
-            "judges": "Trigger alarm. Confirm that sunrise time is accurate and that some sort of alarm mechanism fires. Sunrise in Vancouver tomorrow is 7:35am.",
-            "basescore": 100,
-            "bonusscore": 50
-        },
-        {
-            "challengetitle": "Scorched Earth",
-            "rules": "Write a browser extension for your favorite browser that pays homage to classic turn-based strategy game <a href=\"https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)\">Scorched Earth</a>. Keep it simple, just have one tank that uses the current websites content as a playing field. Once you're able to have a tank properly destroy page content, let a judge know.",
-            "scoring": "200 points for successfully building extension.",
-            "judges": "Use extension on nytimes.com. Confirm tank properly destroys page content.",
-            "basescore": 200,
-            "bonusscore": 0
         },
         {
             "challengetitle": "Peter’s Game\n",
@@ -128,40 +122,22 @@
         {
             "challengetitle": "UrbanSpotting.xxx",
             "rules": "Write a startup name generated via a script that uses Urban Dictionary as it's data source. Bonus points for publishing a 3-slide deck.",
-            "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 5-slide deck explaining the company.",
+            "scoring": "50 points for writing the name generator. <br/> BONUS: 100 points for sending a 3-slide deck explaining the company.",
             "judges": "Verify the code. Have them tweet a link to the deck at @thehackerolympics",
             "basescore": 50,
             "bonusscore": 100
         },
         {
             "challengetitle": "Use The Force",
-            "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone.",
+            "rules": "In a mobile browser implement a light saber app that replicate the noise of a light saber when you wave the phone. You must create your own sound effects.",
             "scoring": "100 points for getting your saber on.",
             "judges": "Wave the phone. Check that it works.",
             "basescore": 100
         },
         {
-            "challengetitle": "Hacker Newz Filter",
-            "rules": "Write an extension for your favorite browser that hides article entries on news.ycombinator.com that contain certain keywords.",
-            "scoring": "100 points for successfuly demoing your extension. <br /> BONUS: 50 points for altering the headlines.",
-            "judges": "Verify that the extension works. Verify the source code.",
-            "basescore": 100,
-            "bonusscore": 50
-        },
-        {
-            "challengetitle": "What Does a Mom Tweet?",
-            "rules": "Write a Twilio app that allows your mom to tweet on her very own account, without ever visiting twitter.com. She should be able to tweet embarrasing things, by simply sending a text.",
-            "scoring": "100 points for successfully tweeting via SMS from your phone, under a new twitter account. <br /> BONUS: 50 points for using Twilio VOICE.",
-            "judges": "Verify that the app tweets after they send it a text. For bonus call the number and see if it tweets.",
-            "resourcetitle": "Twilio Docs",
-            "resourceurl": "http://twilio.com/docs",
-            "basescore": 100,
-            "bonusscore": 50
-        },
-        {
             "challengetitle": "SendGrid-a-licious",
             "rules": "Make a basic contact form that sends an email using SendGrid. Must use JavaScript for the sending. <b> Bonus points</b> if you build the entire thing in front-end JavaScript with only the necessary hardcoded  html, head, body, etc tags to render the page.",
-            "scoring": "50 points for successfully sending an email using SendGrid. <br /> BONUS: 100 points for building the entire thing out of javascript.",
+            "scoring": "50 points for successfully sending an email using SendGrid. <br /> Bonus: 100 points for building the entire thing out of javascript.",
             "judges": "Verify that the script sends an email. Check the source code.",
             "resourcetitle": "Sendgrid Docs",
             "resourceurl": "http://sendgrid.com/docs/",
@@ -169,62 +145,95 @@
             "bonusscore": 100
         },
         {
-            "challengetitle": "Faily Mail",
-            "rules": "Write an app using Import.iO (thing) that scapes the Daily mail for a list of things that both cause and cure cancer. Bonus points for validating the cancer causing thing against a higher quality newspaper."
-        },
-        {
-            "challengetitle": "Republicanism in the UK",
-            "rules": "Write a web app showing a picture of Prince Philip that takes a drink every time one of the well known republicans mentioned on (wikipedia http://en.wikipedia.org/wiki/Republicanism_in_the_United_Kingdom) makes anti-royal statement. ",
-            "scoring": "Add your judgs as a republican to win points."
-        },
-        {
-            "challengetitle": "Boris swalloed a dictionary",
-            "rules": "No one has anhy idea what Boris Johnson says. Use an online dictionary to translate what he is saying into normal person english like what I talk."
-        },
-        {
-            "challengetitle": "I can haz the archers old boy.",
-            "rules": "Write a meme generator that uses the plots of the day's archers episode as it source."
-        },
-        {
             "challengetitle": "Money Money Money",
-            "rules": "In a new wallet, somehow acquire any quantity (more than zero) of bitcoin."
-        },
-        {
-            "challengetitle": "Minecoin",
-            "rules": "Create a mod for Minecraft that mines a single bitcoing transaction everytime you mine a block in Minecraft."
+            "rules": "Can you get the Hacker Olympics hashtag into the BitCoin block chain?",
+            "scoring": "500 points",
+            "judges": "Ensure that the #HackerOlympics hashtag is included in the BlockChain as either an Input or Output string. Use the Transaction ID and https://blockchain.info/ to check.",
+            "basescore": 500
         },
         {
             "challengetitle": "Simpsons Blackboard",
-            "rules": "We love the Simpsons. But Bart has been writing on that blackboard for 25 years. Can you write down (on paper) every single thing he wrote on the blackboard?"
+            "rules": "We love the Simpsons. But Bart has been writing on that blackboard for 25 years. Use import.io and this handy data source to create your visualisation: http://bit.ly/1giiJSB (Create a free import.io account first to get started!)",
+            "scoring": "100 Points for createing a successful visualisation. 50 Bonus points for exluding common words, such as 'I', 'the', 'and' etc.",
+            "judges": "Check that the team have created a visualisation, look at the data, and the import.io collector they are using.",
+            "basescore": 100,
+            "bonusscore": 50
         },
         {
             "challengetitle": "Rondomkey",
             "rules": "Create a text form in a web page, which can emulate changing between a UK/French/German/Devorak keyboard on every 15th key stroke.",
-            "scoring": "Bonus 10 points for every keyboard type  supported."
+            "scoring": "20 points for every keyboard type  supported.",
+            "judges": "Use a single key, you can repeat this 15 times to see if the keyboard changes, and by looking at the supported keyboards you'll know what to expect.",
+            "scoreunit": "Keyboards Supported",
+            "scoreunitmultiplier": 20
         },
         {
             "challengetitle": "!Coffee",
-            "rules": "Shoreditch is full of posh coffee shops. We've given you sachets of Nescafe, and convince one of the coffee shops to make you a cup. Video the whole thing. It must not be a chain store (starbucks etc)."
+            "rules": "Shoreditch is full of posh coffee shops. We've given you sachets of Nescafe, and convince one of the coffee shops to make you a cup. Vine the whole thing with the #HackerOlympics hashtag. It must not be a chain store (starbucks etc) and not the coffee shop attached to this venue. The Barista must make the whole coffee, and this should be clear.",
+            "scoring": "150 points if you come back with a Vine of the Barista making the coffee posted with the #HackerOlympics hashtag. 50 Bonus points if they may it into a Cappucino.",
+            "judges": "The vide should have the hash tag, and clearly show the barista making the coffee.<br/>Bonus points if the barista made them a cappucino",
+            "basescore": 150,
+            "bonusscore": 50
         },
         {
-            "challengetitle": "Browser Trumps",
-            "rules": "Create an app that allows two random people to load a web page, and uses their browser version number to work out who wins."
+            "challengetitle": "Flappy 2048",
+            "rules": "Get to 2048 on Flappy 2048 (http://flappy2048.com/).  ",
+            "scoring": "<P>300 points if you show a judge the 2048 tile.<P> ",
+            "judges": "See the end state, the final tile will be visible.",
+            "basescore": 300
         },
         {
-            "challengetitle": "Cocoffee",
-            "rules": "We all love coffee, and we all love coworking. But which coworking space is close to the highest density of coffee shops. Create a heat map on Google Maps."
+            "challengetitle": "NgrokBus",
+            "rules": "Build a bus network for each member of your team using an app running on <A href=\"https://ngrok.com/\">NGrok (http://www.ngrok.com)</a>, make them play chinese whispers by sending a string round the entire team. Each application should repleace one character of the string with a different letter.",
+            "scoring": "<P>150 points if the data goes to each member of the team, and 1 character is modified</P>",
+            "judges": "Ask them to send a specific word, and check the output on each screen.",
+            "basescore": 150
         },
         {
-            "challengetitle": "Hacker Olympics Kevin Bacon",
-            "rules": "Find out who in your team has the lowest 'bacon number' of mutual Twitter followers to as many of the judges as possible."
+            "challengetitle": "CaesarSalad",
+            "rules": "You have been given an encrypted string using a ceasar cypher, break it. Each team has a different cypher.",
+            "scoring": "100 points for solving your cypher.",
+            "judges": "Check the answer to the cypher against that in your Judges Handout.",
+            "basescore": 100
         },
         {
-            "challengetitle": "Peak Beard\n",
-            "rules": "Use any social APIs you choose to track mentions of the word 'beard' and find out once and for all if we have reached peaked beard. And if we have - WHEN!?"
+            "challengetitle": "You Brute",
+            "rules": "<P>This is an MD5 hash of a 5 letter password: 98a2966d4d87b3b62b2b9241e3d517ff</P><P>It only contains alphachars (a-z), but it is the pasword to the HackerOlympics 1Password account. It would be just super if you can use a brute force attack to get the password, because we forgot what it was... Points will be awarded!</P>  ",
+            "scoring": "150 points for breaking the password.",
+            "judges": "<P>The password is 'nmeno'. Chosen because if they start with aaaaa or zzzzz it's in the approximate middle of the space.</P>",
+            "basescore": 150
         },
         {
-            "challengetitle": "Silicon Cleanabout",
-            "rules": "Write a browser extension that removes the phrases 'tech city' and 'silicon roundabout' from every single webpage I visit. Bonus points for removing stock photography of old street randabout and replacing it with a picture of a donut."
+            "challengetitle": "LetMeBingThatForYou",
+            "rules": "Sending people a link to <a href=\"http://www.lmgtfy.com\">'Let me Google that for you' (http://www.lmgtfy.com)</a> is a <em>subtle</em> way of suggesting they look something up. Create a 'let me google that for you' clone that allows users to send a link that automatically runs a Microsoft Bing search. It should feature the same automatically typed search query.",
+            "scoring": "100 points for creating the clone, it must be possible to email the search links. 50 bonus points if it plays a microwave bing.",
+            "judges": "This should be a clone that looks a fair bit like Bing. Make sure the attendee has not used 'lmbtfy.com'",
+            "basescore": 100,
+            "bonusscore": 50
+        },
+        {
+            "challengetitle": "Hacker Olympics Does Qwop",
+            "rules": "<P>Some games are hard. Some games are crazy-hard. <A href=\"http://www.foddy.net/Athletics.html\">Qwop (http://www.foddy.net/Athletics.html)</A> is a little bit harder still. In this game you use your keyboard to control the athletes legs. Every meter forward you run gets you 1% of the points. Keep at it, if you improve your score the judges can increase your points!</P>",
+            "scoring": "<P>The games will give you a score on a per-meter basis, for ever 1 meter you run, you get 10 points.</P>",
+            "judges": "Check their maximum distance in Qwop. Enter the exact number to <strong>one decimal place</strong>. The app will calculate the correct score. For example, 3.4 meters will be 34 points.",
+            "scoreunit": "Meters Run",
+            "scoreunitmultiplier": 10
+        },
+        {
+            "challengetitle": "UA Pokemon",
+            "rules": "<P>Create a web app that logs all unique Browser User Agents (i.e. 'curl/7.30.0').  You can log this information in any way you please, and feel free to tweet with the #hackerolympics hashtag to get more visits to your page!</P>",
+            "scoring": "<P>1 point for every user agent you collect, up to a maximum of 100 points.</P>",
+            "judges": "See <a href=\"http://www.useragentstring.com/pages/Browserlist/\">here</a>. Count how many user agents there are (feel free to ask the attendee to sort them in a text file). Then assign enter the number of unique user agents in the app. Maximum 100.",
+            "scoreunit": "User Agents Collected",
+            "scoreunitmultiplier": 1
+        },
+        {
+            "challengetitle": "That's Twumberwang!",
+            "rules": "<p>Create a working multiplayer version of the British classic game show That's Numberwang! using Twilio Voice or SMS.  App may use Interactive Voice Response, SMS or whatever other creative telephony you can think of, but must produce a highly competitive gaming experience like the original show.  For a refresher, <a href=\"https://www.youtube.com/watch?v=qjOZtWZ56lc\">view this video (http://bit.ly/1lJG917)</a>.</p>",
+            "scoring": "<p>100 points.  Bonus 50 points for original audio clips.</p>",
+            "judges": "<p>Call or text number to play Numberwang.  Must be able to put in a series of numbers and eventually hear or see \"That's Numberwang!\"  Bonus points if you hear the announcer \"That's Numberwang!\" clip.</p>",
+            "basescore": 100,
+            "bonusscore": 50
         }
     ],
     "rules": [
