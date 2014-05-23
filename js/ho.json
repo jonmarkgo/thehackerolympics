@@ -239,7 +239,7 @@
         },
         {
             "challengetitle": "That's Twumberwang!",
-            "rules": "<p>Create a working multiplayer version of the British classic game show That's Numberwang! using Twilio Voice or SMS.  App may use Interactive Voice Response, SMS or whatever other creative telephony you can think of, but must produce a highly competitive gaming experience like the original show.  For a refresher, <a href=\"https://www.youtube.com/watch?v=qjOZtWZ56lc\">view this video (http://bit.ly/1lJG917)</a>.</p>",
+            "rules": "<p>Create a working multiplayer version of the British classic game show That's Numberwang! using Twilio Voice or SMS.  App may use Interactive Voice Response, SMS or whatever other creative telephony you can think of, but must produce a highly competitive gaming experience like the original show.  For a refresher, <a href=\"https://www.youtube.com/watch?v=qjOZtWZ56lc\">view this video (http://bit.ly/1lJG917)</a>.</p><p>To to get setup with Twilio, you can use the promo code 'HackerOlympics' for some free credit!</p>",
             "scoring": "<p>100 points.  Bonus 50 points for original audio clips.</p>",
             "judges": "<p>Call or text number to play Numberwang.  Must be able to put in a series of numbers and eventually hear or see \"That's Numberwang!\"  Bonus points if you hear the announcer \"That's Numberwang!\" clip.</p>",
             "resourcetitle": "Numberwang",
